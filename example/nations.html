@@ -90,7 +90,7 @@ path.lineTrajectory {
 <div id="chart" style="margin:0px"></div>
 <span id="min-time">1927</span> 
 <input type="range" name="points" min="0" max="208" step="1" value="0" id="slider-time" style="width:900px">
-<span id="max-time">2008</span>
+<span id="max-time">2013</span>
 <br>
 <p>
 Original creation by <a href="http://www.gapminder.org/world/">Gapminder</a> using <a href="https://github.com/RandomEtc/mind-gapper-js">Tom Carden</a> JavaScript version.<br>
@@ -134,8 +134,8 @@ var margin = {top: 19.5, right: 19.5, bottom: 19.5, left: 39.5},
     width = 960 - margin.right,
     height = 500 - margin.top - margin.bottom;
 // Various scales. These domains make assumptions of data, naturally.
-var xScale = d3.scale.log().domain([300, 1e5]).range([0, width]),
-    yScale = d3.scale.linear().domain([10, 85]).range([height, 0]),
+var xScale = d3.scale.linear().domain([1927, 2013]).range([0, width]),
+    yScale = d3.scale.linear().domain([10, 1]).range([height, 0]),
     radiusScale = d3.scale.sqrt().domain([0, 5e8]).range([0, 40]),
     colorScale = d3.scale.category10();
 // The x & y axes.
@@ -163,7 +163,7 @@ svg.append("text")
     .attr("text-anchor", "end")
     .attr("x", width)
     .attr("y", height - 6)
-    .text("income per capita, inflation-adjusted (dollars)");
+    .text("Date");
 // Add a y-axis label.
 svg.append("text")
     .attr("class", "y label")
@@ -171,7 +171,7 @@ svg.append("text")
     .attr("y", 6)
     .attr("dy", ".75em")
     .attr("transform", "rotate(-90)")
-    .text("life expectancy (years)");
+    .text("Ranking");
 // Add the year label; the value is set on transition.
 var label = svg.append("text")
     .attr("class", "year label")
