@@ -1,0 +1,1723 @@
+<?xml version="1.0"?>
+<Root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Step>
+  <Number>1</Number> 
+  <TotalClusters>215</TotalClusters> 
+  <Similarity>99.8343</Similarity> 
+  <Joined1>166</Joined1> 
+  <Joined2>196</Joined2>
+  <Observations>2</Observations>
+</Step> 
+<Step>
+  <Number>2</Number> 
+  <TotalClusters>214</TotalClusters> 
+  <Similarity>99.4200</Similarity> 
+  <Joined1>79</Joined1> 
+  <Joined2>149</Joined2>
+  <Observations>2</Observations>
+</Step> 
+<Step>
+  <Number>3</Number> 
+  <TotalClusters>213</TotalClusters> 
+  <Similarity>99.4200</Similarity> 
+  <Joined1>94</Joined1> 
+  <Joined2>128</Joined2>
+  <Observations>2</Observations>
+</Step> 
+<Step>
+  <Number>4</Number> 
+  <TotalClusters>212</TotalClusters> 
+  <Similarity>99.4200</Similarity> 
+  <Joined1>11</Joined1> 
+  <Joined2>61</Joined2>
+  <Observations>2</Observations>
+</Step> 
+<Step>
+  <Number>5</Number> 
+  <TotalClusters>211</TotalClusters> 
+  <Similarity>99.4171</Similarity> 
+  <Joined1>72</Joined1> 
+  <Joined2>90</Joined2>
+  <Observations>2</Observations>
+</Step> 
+<Step>
+  <Number>6</Number> 
+  <TotalClusters>210</TotalClusters> 
+  <Similarity>99.2573</Similarity> 
+  <Joined1>49</Joined1> 
+  <Joined2>97</Joined2>
+  <Observations>2</Observations>
+</Step> 
+<Step>
+  <Number>7</Number> 
+  <TotalClusters>209</TotalClusters> 
+  <Similarity>99.2240</Similarity> 
+  <Joined1>46</Joined1> 
+  <Joined2>210</Joined2>
+  <Observations>2</Observations>
+</Step> 
+<Step>
+  <Number>8</Number> 
+  <TotalClusters>208</TotalClusters> 
+  <Similarity>99.1798</Similarity> 
+  <Joined1>45</Joined1> 
+  <Joined2>113</Joined2>
+  <Observations>2</Observations>
+</Step> 
+<Step>
+  <Number>9</Number> 
+  <TotalClusters>207</TotalClusters> 
+  <Similarity>99.1300</Similarity> 
+  <Joined1>68</Joined1> 
+  <Joined2>94</Joined2>
+  <Observations>3</Observations>
+</Step> 
+<Step>
+  <Number>10</Number> 
+  <TotalClusters>206</TotalClusters> 
+  <Similarity>99.0609</Similarity> 
+  <Joined1>44</Joined1> 
+  <Joined2>111</Joined2>
+  <Observations>2</Observations>
+</Step> 
+<Step>
+  <Number>11</Number> 
+  <TotalClusters>205</TotalClusters> 
+  <Similarity>99.0334</Similarity> 
+  <Joined1>29</Joined1> 
+  <Joined2>57</Joined2>
+  <Observations>2</Observations>
+</Step> 
+<Step>
+  <Number>12</Number> 
+  <TotalClusters>204</TotalClusters> 
+  <Similarity>99.0334</Similarity> 
+  <Joined1>77</Joined1> 
+  <Joined2>106</Joined2>
+  <Observations>2</Observations>
+</Step> 
+<Step>
+  <Number>13</Number> 
+  <TotalClusters>203</TotalClusters> 
+  <Similarity>98.8727</Similarity> 
+  <Joined1>26</Joined1> 
+  <Joined2>188</Joined2>
+  <Observations>2</Observations>
+</Step> 
+<Step>
+  <Number>14</Number> 
+  <TotalClusters>202</TotalClusters> 
+  <Similarity>98.8400</Similarity> 
+  <Joined1>67</Joined1> 
+  <Joined2>215</Joined2>
+  <Observations>2</Observations>
+</Step> 
+<Step>
+  <Number>15</Number> 
+  <TotalClusters>201</TotalClusters> 
+  <Similarity>98.8400</Similarity> 
+  <Joined1>6</Joined1> 
+  <Joined2>214</Joined2>
+  <Observations>2</Observations>
+</Step> 
+<Step>
+  <Number>16</Number> 
+  <TotalClusters>200</TotalClusters> 
+  <Similarity>98.8400</Similarity> 
+  <Joined1>160</Joined1> 
+  <Joined2>209</Joined2>
+  <Observations>2</Observations>
+</Step> 
+<Step>
+  <Number>17</Number> 
+  <TotalClusters>199</TotalClusters> 
+  <Similarity>98.8400</Similarity> 
+  <Joined1>16</Joined1> 
+  <Joined2>208</Joined2>
+  <Observations>2</Observations>
+</Step> 
+<Step>
+  <Number>18</Number> 
+  <TotalClusters>198</TotalClusters> 
+  <Similarity>98.8400</Similarity> 
+  <Joined1>52</Joined1> 
+  <Joined2>195</Joined2>
+  <Observations>2</Observations>
+</Step> 
+<Step>
+  <Number>19</Number> 
+  <TotalClusters>197</TotalClusters> 
+  <Similarity>98.8400</Similarity> 
+  <Joined1>63</Joined1> 
+  <Joined2>189</Joined2>
+  <Observations>2</Observations>
+</Step> 
+<Step>
+  <Number>20</Number> 
+  <TotalClusters>196</TotalClusters> 
+  <Similarity>98.8400</Similarity> 
+  <Joined1>147</Joined1> 
+  <Joined2>185</Joined2>
+  <Observations>2</Observations>
+</Step> 
+<Step>
+  <Number>21</Number> 
+  <TotalClusters>195</TotalClusters> 
+  <Similarity>98.8400</Similarity> 
+  <Joined1>37</Joined1> 
+  <Joined2>184</Joined2>
+  <Observations>2</Observations>
+</Step> 
+<Step>
+  <Number>22</Number> 
+  <TotalClusters>194</TotalClusters> 
+  <Similarity>98.8400</Similarity> 
+  <Joined1>8</Joined1> 
+  <Joined2>132</Joined2>
+  <Observations>2</Observations>
+</Step> 
+<Step>
+  <Number>23</Number> 
+  <TotalClusters>193</TotalClusters> 
+  <Similarity>98.8400</Similarity> 
+  <Joined1>41</Joined1> 
+  <Joined2>75</Joined2>
+  <Observations>2</Observations>
+</Step> 
+<Step>
+  <Number>24</Number> 
+  <TotalClusters>192</TotalClusters> 
+  <Similarity>98.8400</Similarity> 
+  <Joined1>15</Joined1> 
+  <Joined2>73</Joined2>
+  <Observations>2</Observations>
+</Step> 
+<Step>
+  <Number>25</Number> 
+  <TotalClusters>191</TotalClusters> 
+  <Similarity>98.8400</Similarity> 
+  <Joined1>33</Joined1> 
+  <Joined2>70</Joined2>
+  <Observations>2</Observations>
+</Step> 
+<Step>
+  <Number>26</Number> 
+  <TotalClusters>190</TotalClusters> 
+  <Similarity>98.8400</Similarity> 
+  <Joined1>2</Joined1> 
+  <Joined2>34</Joined2>
+  <Observations>2</Observations>
+</Step> 
+<Step>
+  <Number>27</Number> 
+  <TotalClusters>189</TotalClusters> 
+  <Similarity>98.8375</Similarity> 
+  <Joined1>21</Joined1> 
+  <Joined2>82</Joined2>
+  <Observations>2</Observations>
+</Step> 
+<Step>
+  <Number>28</Number> 
+  <TotalClusters>188</TotalClusters> 
+  <Similarity>98.8375</Similarity> 
+  <Joined1>20</Joined1> 
+  <Joined2>35</Joined2>
+  <Observations>2</Observations>
+</Step> 
+<Step>
+  <Number>29</Number> 
+  <TotalClusters>187</TotalClusters> 
+  <Similarity>98.8043</Similarity> 
+  <Joined1>22</Joined1> 
+  <Joined2>158</Joined2>
+  <Observations>2</Observations>
+</Step> 
+<Step>
+  <Number>30</Number> 
+  <TotalClusters>186</TotalClusters> 
+  <Similarity>98.7773</Similarity> 
+  <Joined1>9</Joined1> 
+  <Joined2>197</Joined2>
+  <Observations>2</Observations>
+</Step> 
+<Step>
+  <Number>31</Number> 
+  <TotalClusters>185</TotalClusters> 
+  <Similarity>98.7773</Similarity> 
+  <Joined1>85</Joined1> 
+  <Joined2>109</Joined2>
+  <Observations>2</Observations>
+</Step> 
+<Step>
+  <Number>32</Number> 
+  <TotalClusters>184</TotalClusters> 
+  <Similarity>98.7437</Similarity> 
+  <Joined1>46</Joined1> 
+  <Joined2>83</Joined2>
+  <Observations>3</Observations>
+</Step> 
+<Step>
+  <Number>33</Number> 
+  <TotalClusters>183</TotalClusters> 
+  <Similarity>98.7031</Similarity> 
+  <Joined1>28</Joined1> 
+  <Joined2>213</Joined2>
+  <Observations>2</Observations>
+</Step> 
+<Step>
+  <Number>34</Number> 
+  <TotalClusters>182</TotalClusters> 
+  <Similarity>98.6740</Similarity> 
+  <Joined1>74</Joined1> 
+  <Joined2>170</Joined2>
+  <Observations>2</Observations>
+</Step> 
+<Step>
+  <Number>35</Number> 
+  <TotalClusters>181</TotalClusters> 
+  <Similarity>98.6059</Similarity> 
+  <Joined1>122</Joined1> 
+  <Joined2>143</Joined2>
+  <Observations>2</Observations>
+</Step> 
+<Step>
+  <Number>36</Number> 
+  <TotalClusters>180</TotalClusters> 
+  <Similarity>98.5998</Similarity> 
+  <Joined1>38</Joined1> 
+  <Joined2>147</Joined2>
+  <Observations>3</Observations>
+</Step> 
+<Step>
+  <Number>37</Number> 
+  <TotalClusters>179</TotalClusters> 
+  <Similarity>98.5998</Similarity> 
+  <Joined1>3</Joined1> 
+  <Joined2>63</Joined2>
+  <Observations>3</Observations>
+</Step> 
+<Step>
+  <Number>38</Number> 
+  <TotalClusters>178</TotalClusters> 
+  <Similarity>98.5975</Similarity> 
+  <Joined1>140</Joined1> 
+  <Joined2>151</Joined2>
+  <Observations>2</Observations>
+</Step> 
+<Step>
+  <Number>39</Number> 
+  <TotalClusters>177</TotalClusters> 
+  <Similarity>98.5793</Similarity> 
+  <Joined1>37</Joined1> 
+  <Joined2>202</Joined2>
+  <Observations>3</Observations>
+</Step> 
+<Step>
+  <Number>40</Number> 
+  <TotalClusters>176</TotalClusters> 
+  <Similarity>98.5793</Similarity> 
+  <Joined1>14</Joined1> 
+  <Joined2>138</Joined2>
+  <Observations>2</Observations>
+</Step> 
+<Step>
+  <Number>41</Number> 
+  <TotalClusters>175</TotalClusters> 
+  <Similarity>98.5598</Similarity> 
+  <Joined1>58</Joined1> 
+  <Joined2>206</Joined2>
+  <Observations>2</Observations>
+</Step> 
+<Step>
+  <Number>42</Number> 
+  <TotalClusters>174</TotalClusters> 
+  <Similarity>98.5500</Similarity> 
+  <Joined1>11</Joined1> 
+  <Joined2>167</Joined2>
+  <Observations>3</Observations>
+</Step> 
+<Step>
+  <Number>43</Number> 
+  <TotalClusters>173</TotalClusters> 
+  <Similarity>98.5305</Similarity> 
+  <Joined1>39</Joined1> 
+  <Joined2>66</Joined2>
+  <Observations>2</Observations>
+</Step> 
+<Step>
+  <Number>44</Number> 
+  <TotalClusters>172</TotalClusters> 
+  <Similarity>98.5123</Similarity> 
+  <Joined1>44</Joined1> 
+  <Joined2>49</Joined2>
+  <Observations>4</Observations>
+</Step> 
+<Step>
+  <Number>45</Number> 
+  <TotalClusters>171</TotalClusters> 
+  <Similarity>98.4984</Similarity> 
+  <Joined1>77</Joined1> 
+  <Joined2>129</Joined2>
+  <Observations>3</Observations>
+</Step> 
+<Step>
+  <Number>46</Number> 
+  <TotalClusters>170</TotalClusters> 
+  <Similarity>98.3956</Similarity> 
+  <Joined1>5</Joined1> 
+  <Joined2>108</Joined2>
+  <Observations>2</Observations>
+</Step> 
+<Step>
+  <Number>47</Number> 
+  <TotalClusters>169</TotalClusters> 
+  <Similarity>98.3939</Similarity> 
+  <Joined1>152</Joined1> 
+  <Joined2>180</Joined2>
+  <Observations>2</Observations>
+</Step> 
+<Step>
+  <Number>48</Number> 
+  <TotalClusters>168</TotalClusters> 
+  <Similarity>98.3825</Similarity> 
+  <Joined1>133</Joined1> 
+  <Joined2>163</Joined2>
+  <Observations>2</Observations>
+</Step> 
+<Step>
+  <Number>49</Number> 
+  <TotalClusters>167</TotalClusters> 
+  <Similarity>98.3596</Similarity> 
+  <Joined1>13</Joined1> 
+  <Joined2>123</Joined2>
+  <Observations>2</Observations>
+</Step> 
+<Step>
+  <Number>50</Number> 
+  <TotalClusters>166</TotalClusters> 
+  <Similarity>98.3596</Similarity> 
+  <Joined1>36</Joined1> 
+  <Joined2>91</Joined2>
+  <Observations>2</Observations>
+</Step> 
+<Step>
+  <Number>51</Number> 
+  <TotalClusters>165</TotalClusters> 
+  <Similarity>98.3596</Similarity> 
+  <Joined1>40</Joined1> 
+  <Joined2>64</Joined2>
+  <Observations>2</Observations>
+</Step> 
+<Step>
+  <Number>52</Number> 
+  <TotalClusters>164</TotalClusters> 
+  <Similarity>98.3292</Similarity> 
+  <Joined1>5</Joined1> 
+  <Joined2>23</Joined2>
+  <Observations>3</Observations>
+</Step> 
+<Step>
+  <Number>53</Number> 
+  <TotalClusters>163</TotalClusters> 
+  <Similarity>98.3230</Similarity> 
+  <Joined1>89</Joined1> 
+  <Joined2>200</Joined2>
+  <Observations>2</Observations>
+</Step> 
+<Step>
+  <Number>54</Number> 
+  <TotalClusters>162</TotalClusters> 
+  <Similarity>98.2627</Similarity> 
+  <Joined1>45</Joined1> 
+  <Joined2>103</Joined2>
+  <Observations>3</Observations>
+</Step> 
+<Step>
+  <Number>55</Number> 
+  <TotalClusters>161</TotalClusters> 
+  <Similarity>98.2600</Similarity> 
+  <Joined1>146</Joined1> 
+  <Joined2>159</Joined2>
+  <Observations>2</Observations>
+</Step> 
+<Step>
+  <Number>56</Number> 
+  <TotalClusters>160</TotalClusters> 
+  <Similarity>98.2600</Similarity> 
+  <Joined1>6</Joined1> 
+  <Joined2>154</Joined2>
+  <Observations>3</Observations>
+</Step> 
+<Step>
+  <Number>57</Number> 
+  <TotalClusters>159</TotalClusters> 
+  <Similarity>98.2176</Similarity> 
+  <Joined1>127</Joined1> 
+  <Joined2>187</Joined2>
+  <Observations>2</Observations>
+</Step> 
+<Step>
+  <Number>58</Number> 
+  <TotalClusters>158</TotalClusters> 
+  <Similarity>98.2161</Similarity> 
+  <Joined1>86</Joined1> 
+  <Joined2>177</Joined2>
+  <Observations>2</Observations>
+</Step> 
+<Step>
+  <Number>59</Number> 
+  <TotalClusters>157</TotalClusters> 
+  <Similarity>98.2152</Similarity> 
+  <Joined1>77</Joined1> 
+  <Joined2>212</Joined2>
+  <Observations>4</Observations>
+</Step> 
+<Step>
+  <Number>60</Number> 
+  <TotalClusters>156</TotalClusters> 
+  <Similarity>98.1864</Similarity> 
+  <Joined1>24</Joined1> 
+  <Joined2>42</Joined2>
+  <Observations>2</Observations>
+</Step> 
+<Step>
+  <Number>61</Number> 
+  <TotalClusters>155</TotalClusters> 
+  <Similarity>98.1864</Similarity> 
+  <Joined1>110</Joined1> 
+  <Joined2>191</Joined2>
+  <Observations>2</Observations>
+</Step> 
+<Step>
+  <Number>62</Number> 
+  <TotalClusters>154</TotalClusters> 
+  <Similarity>98.1659</Similarity> 
+  <Joined1>117</Joined1> 
+  <Joined2>161</Joined2>
+  <Observations>2</Observations>
+</Step> 
+<Step>
+  <Number>63</Number> 
+  <TotalClusters>153</TotalClusters> 
+  <Similarity>98.1577</Similarity> 
+  <Joined1>142</Joined1> 
+  <Joined2>144</Joined2>
+  <Observations>2</Observations>
+</Step> 
+<Step>
+  <Number>64</Number> 
+  <TotalClusters>152</TotalClusters> 
+  <Similarity>98.1558</Similarity> 
+  <Joined1>17</Joined1> 
+  <Joined2>114</Joined2>
+  <Observations>2</Observations>
+</Step> 
+<Step>
+  <Number>65</Number> 
+  <TotalClusters>151</TotalClusters> 
+  <Similarity>98.1391</Similarity> 
+  <Joined1>32</Joined1> 
+  <Joined2>173</Joined2>
+  <Observations>2</Observations>
+</Step> 
+<Step>
+  <Number>66</Number> 
+  <TotalClusters>150</TotalClusters> 
+  <Similarity>98.1071</Similarity> 
+  <Joined1>72</Joined1> 
+  <Joined2>176</Joined2>
+  <Observations>3</Observations>
+</Step> 
+<Step>
+  <Number>67</Number> 
+  <TotalClusters>149</TotalClusters> 
+  <Similarity>98.0775</Similarity> 
+  <Joined1>21</Joined1> 
+  <Joined2>171</Joined2>
+  <Observations>3</Observations>
+</Step> 
+<Step>
+  <Number>68</Number> 
+  <TotalClusters>148</TotalClusters> 
+  <Similarity>98.0764</Similarity> 
+  <Joined1>104</Joined1> 
+  <Joined2>157</Joined2>
+  <Observations>2</Observations>
+</Step> 
+<Step>
+  <Number>69</Number> 
+  <TotalClusters>147</TotalClusters> 
+  <Similarity>98.0740</Similarity> 
+  <Joined1>26</Joined1> 
+  <Joined2>179</Joined2>
+  <Observations>3</Observations>
+</Step> 
+<Step>
+  <Number>70</Number> 
+  <TotalClusters>146</TotalClusters> 
+  <Similarity>98.0724</Similarity> 
+  <Joined1>16</Joined1> 
+  <Joined2>186</Joined2>
+  <Observations>3</Observations>
+</Step> 
+<Step>
+  <Number>71</Number> 
+  <TotalClusters>145</TotalClusters> 
+  <Similarity>98.0715</Similarity> 
+  <Joined1>2</Joined1> 
+  <Joined2>67</Joined2>
+  <Observations>4</Observations>
+</Step> 
+<Step>
+  <Number>72</Number> 
+  <TotalClusters>144</TotalClusters> 
+  <Similarity>98.0650</Similarity> 
+  <Joined1>68</Joined1> 
+  <Joined2>93</Joined2>
+  <Observations>4</Observations>
+</Step> 
+<Step>
+  <Number>73</Number> 
+  <TotalClusters>143</TotalClusters> 
+  <Similarity>98.0523</Similarity> 
+  <Joined1>50</Joined1> 
+  <Joined2>101</Joined2>
+  <Observations>2</Observations>
+</Step> 
+<Step>
+  <Number>74</Number> 
+  <TotalClusters>142</TotalClusters> 
+  <Similarity>98.0498</Similarity> 
+  <Joined1>43</Joined1> 
+  <Joined2>137</Joined2>
+  <Observations>2</Observations>
+</Step> 
+<Step>
+  <Number>75</Number> 
+  <TotalClusters>141</TotalClusters> 
+  <Similarity>98.0451</Similarity> 
+  <Joined1>78</Joined1> 
+  <Joined2>162</Joined2>
+  <Observations>2</Observations>
+</Step> 
+<Step>
+  <Number>76</Number> 
+  <TotalClusters>140</TotalClusters> 
+  <Similarity>97.9282</Similarity> 
+  <Joined1>58</Joined1> 
+  <Joined2>98</Joined2>
+  <Observations>3</Observations>
+</Step> 
+<Step>
+  <Number>77</Number> 
+  <TotalClusters>139</TotalClusters> 
+  <Similarity>97.9088</Similarity> 
+  <Joined1>40</Joined1> 
+  <Joined2>141</Joined2>
+  <Observations>3</Observations>
+</Step> 
+<Step>
+  <Number>78</Number> 
+  <TotalClusters>138</TotalClusters> 
+  <Similarity>97.8829</Similarity> 
+  <Joined1>33</Joined1> 
+  <Joined2>172</Joined2>
+  <Observations>3</Observations>
+</Step> 
+<Step>
+  <Number>79</Number> 
+  <TotalClusters>137</TotalClusters> 
+  <Similarity>97.8749</Similarity> 
+  <Joined1>20</Joined1> 
+  <Joined2>100</Joined2>
+  <Observations>3</Observations>
+</Step> 
+<Step>
+  <Number>80</Number> 
+  <TotalClusters>136</TotalClusters> 
+  <Similarity>97.8694</Similarity> 
+  <Joined1>79</Joined1> 
+  <Joined2>168</Joined2>
+  <Observations>3</Observations>
+</Step> 
+<Step>
+  <Number>81</Number> 
+  <TotalClusters>135</TotalClusters> 
+  <Similarity>97.8569</Similarity> 
+  <Joined1>1</Joined1> 
+  <Joined2>44</Joined2>
+  <Observations>5</Observations>
+</Step> 
+<Step>
+  <Number>82</Number> 
+  <TotalClusters>134</TotalClusters> 
+  <Similarity>97.8299</Similarity> 
+  <Joined1>120</Joined1> 
+  <Joined2>150</Joined2>
+  <Observations>2</Observations>
+</Step> 
+<Step>
+  <Number>83</Number> 
+  <TotalClusters>133</TotalClusters> 
+  <Similarity>97.8063</Similarity> 
+  <Joined1>190</Joined1> 
+  <Joined2>201</Joined2>
+  <Observations>2</Observations>
+</Step> 
+<Step>
+  <Number>84</Number> 
+  <TotalClusters>132</TotalClusters> 
+  <Similarity>97.7407</Similarity> 
+  <Joined1>29</Joined1> 
+  <Joined2>88</Joined2>
+  <Observations>3</Observations>
+</Step> 
+<Step>
+  <Number>85</Number> 
+  <TotalClusters>131</TotalClusters> 
+  <Similarity>97.7240</Similarity> 
+  <Joined1>38</Joined1> 
+  <Joined2>134</Joined2>
+  <Observations>4</Observations>
+</Step> 
+<Step>
+  <Number>86</Number> 
+  <TotalClusters>130</TotalClusters> 
+  <Similarity>97.7207</Similarity> 
+  <Joined1>87</Joined1> 
+  <Joined2>116</Joined2>
+  <Observations>2</Observations>
+</Step> 
+<Step>
+  <Number>87</Number> 
+  <TotalClusters>129</TotalClusters> 
+  <Similarity>97.6801</Similarity> 
+  <Joined1>124</Joined1> 
+  <Joined2>216</Joined2>
+  <Observations>2</Observations>
+</Step> 
+<Step>
+  <Number>88</Number> 
+  <TotalClusters>128</TotalClusters> 
+  <Similarity>97.6801</Similarity> 
+  <Joined1>139</Joined1> 
+  <Joined2>192</Joined2>
+  <Observations>2</Observations>
+</Step> 
+<Step>
+  <Number>89</Number> 
+  <TotalClusters>127</TotalClusters> 
+  <Similarity>97.6801</Similarity> 
+  <Joined1>30</Joined1> 
+  <Joined2>102</Joined2>
+  <Observations>2</Observations>
+</Step> 
+<Step>
+  <Number>90</Number> 
+  <TotalClusters>126</TotalClusters> 
+  <Similarity>97.6720</Similarity> 
+  <Joined1>84</Joined1> 
+  <Joined2>95</Joined2>
+  <Observations>2</Observations>
+</Step> 
+<Step>
+  <Number>91</Number> 
+  <TotalClusters>125</TotalClusters> 
+  <Similarity>97.6490</Similarity> 
+  <Joined1>81</Joined1> 
+  <Joined2>146</Joined2>
+  <Observations>3</Observations>
+</Step> 
+<Step>
+  <Number>92</Number> 
+  <TotalClusters>124</TotalClusters> 
+  <Similarity>97.6441</Similarity> 
+  <Joined1>14</Joined1> 
+  <Joined2>68</Joined2>
+  <Observations>6</Observations>
+</Step> 
+<Step>
+  <Number>93</Number> 
+  <TotalClusters>123</TotalClusters> 
+  <Similarity>97.5475</Similarity> 
+  <Joined1>11</Joined1> 
+  <Joined2>153</Joined2>
+  <Observations>4</Observations>
+</Step> 
+<Step>
+  <Number>94</Number> 
+  <TotalClusters>122</TotalClusters> 
+  <Similarity>97.5288</Similarity> 
+  <Joined1>9</Joined1> 
+  <Joined2>164</Joined2>
+  <Observations>3</Observations>
+</Step> 
+<Step>
+  <Number>95</Number> 
+  <TotalClusters>121</TotalClusters> 
+  <Similarity>97.5278</Similarity> 
+  <Joined1>117</Joined1> 
+  <Joined2>193</Joined2>
+  <Observations>3</Observations>
+</Step> 
+<Step>
+  <Number>96</Number> 
+  <TotalClusters>120</TotalClusters> 
+  <Similarity>97.5256</Similarity> 
+  <Joined1>16</Joined1> 
+  <Joined2>48</Joined2>
+  <Observations>4</Observations>
+</Step> 
+<Step>
+  <Number>97</Number> 
+  <TotalClusters>119</TotalClusters> 
+  <Similarity>97.5208</Similarity> 
+  <Joined1>46</Joined1> 
+  <Joined2>92</Joined2>
+  <Observations>4</Observations>
+</Step> 
+<Step>
+  <Number>98</Number> 
+  <TotalClusters>118</TotalClusters> 
+  <Similarity>97.4966</Similarity> 
+  <Joined1>39</Joined1> 
+  <Joined2>205</Joined2>
+  <Observations>3</Observations>
+</Step> 
+<Step>
+  <Number>99</Number> 
+  <TotalClusters>117</TotalClusters> 
+  <Similarity>97.4883</Similarity> 
+  <Joined1>60</Joined1> 
+  <Joined2>166</Joined2>
+  <Observations>3</Observations>
+</Step> 
+<Step>
+  <Number>100</Number> 
+  <TotalClusters>116</TotalClusters> 
+  <Similarity>97.4719</Similarity> 
+  <Joined1>47</Joined1> 
+  <Joined2>121</Joined2>
+  <Observations>2</Observations>
+</Step> 
+<Step>
+  <Number>101</Number> 
+  <TotalClusters>115</TotalClusters> 
+  <Similarity>97.4665</Similarity> 
+  <Joined1>22</Joined1> 
+  <Joined2>194</Joined2>
+  <Observations>3</Observations>
+</Step> 
+<Step>
+  <Number>102</Number> 
+  <TotalClusters>114</TotalClusters> 
+  <Similarity>97.4572</Similarity> 
+  <Joined1>72</Joined1> 
+  <Joined2>76</Joined2>
+  <Observations>4</Observations>
+</Step> 
+<Step>
+  <Number>103</Number> 
+  <TotalClusters>113</TotalClusters> 
+  <Similarity>97.4062</Similarity> 
+  <Joined1>31</Joined1> 
+  <Joined2>204</Joined2>
+  <Observations>2</Observations>
+</Step> 
+<Step>
+  <Number>104</Number> 
+  <TotalClusters>112</TotalClusters> 
+  <Similarity>97.4062</Similarity> 
+  <Joined1>4</Joined1> 
+  <Joined2>145</Joined2>
+  <Observations>2</Observations>
+</Step> 
+<Step>
+  <Number>105</Number> 
+  <TotalClusters>111</TotalClusters> 
+  <Similarity>97.4062</Similarity> 
+  <Joined1>107</Joined1> 
+  <Joined2>131</Joined2>
+  <Observations>2</Observations>
+</Step> 
+<Step>
+  <Number>106</Number> 
+  <TotalClusters>110</TotalClusters> 
+  <Similarity>97.4062</Similarity> 
+  <Joined1>19</Joined1> 
+  <Joined2>119</Joined2>
+  <Observations>2</Observations>
+</Step> 
+<Step>
+  <Number>107</Number> 
+  <TotalClusters>109</TotalClusters> 
+  <Similarity>97.3990</Similarity> 
+  <Joined1>55</Joined1> 
+  <Joined2>115</Joined2>
+  <Observations>2</Observations>
+</Step> 
+<Step>
+  <Number>108</Number> 
+  <TotalClusters>108</TotalClusters> 
+  <Similarity>97.3266</Similarity> 
+  <Joined1>160</Joined1> 
+  <Joined2>207</Joined2>
+  <Observations>3</Observations>
+</Step> 
+<Step>
+  <Number>109</Number> 
+  <TotalClusters>107</TotalClusters> 
+  <Similarity>97.2934</Similarity> 
+  <Joined1>10</Joined1> 
+  <Joined2>165</Joined2>
+  <Observations>2</Observations>
+</Step> 
+<Step>
+  <Number>110</Number> 
+  <TotalClusters>106</TotalClusters> 
+  <Similarity>97.2895</Similarity> 
+  <Joined1>136</Joined1> 
+  <Joined2>140</Joined2>
+  <Observations>3</Observations>
+</Step> 
+<Step>
+  <Number>111</Number> 
+  <TotalClusters>105</TotalClusters> 
+  <Similarity>97.2860</Similarity> 
+  <Joined1>58</Joined1> 
+  <Joined2>112</Joined2>
+  <Observations>4</Observations>
+</Step> 
+<Step>
+  <Number>112</Number> 
+  <TotalClusters>104</TotalClusters> 
+  <Similarity>97.2821</Similarity> 
+  <Joined1>3</Joined1> 
+  <Joined2>38</Joined2>
+  <Observations>7</Observations>
+</Step> 
+<Step>
+  <Number>113</Number> 
+  <TotalClusters>103</TotalClusters> 
+  <Similarity>97.2371</Similarity> 
+  <Joined1>32</Joined1> 
+  <Joined2>51</Joined2>
+  <Observations>3</Observations>
+</Step> 
+<Step>
+  <Number>114</Number> 
+  <TotalClusters>102</TotalClusters> 
+  <Similarity>97.1898</Similarity> 
+  <Joined1>104</Joined1> 
+  <Joined2>118</Joined2>
+  <Observations>3</Observations>
+</Step> 
+<Step>
+  <Number>115</Number> 
+  <TotalClusters>101</TotalClusters> 
+  <Similarity>97.1521</Similarity> 
+  <Joined1>105</Joined1> 
+  <Joined2>181</Joined2>
+  <Observations>2</Observations>
+</Step> 
+<Step>
+  <Number>116</Number> 
+  <TotalClusters>100</TotalClusters> 
+  <Similarity>97.1491</Similarity> 
+  <Joined1>26</Joined1> 
+  <Joined2>28</Joined2>
+  <Observations>5</Observations>
+</Step> 
+<Step>
+  <Number>117</Number> 
+  <TotalClusters>99</TotalClusters> 
+  <Similarity>97.1459</Similarity> 
+  <Joined1>55</Joined1> 
+  <Joined2>62</Joined2>
+  <Observations>3</Observations>
+</Step> 
+<Step>
+  <Number>118</Number> 
+  <TotalClusters>98</TotalClusters> 
+  <Similarity>97.0784</Similarity> 
+  <Joined1>14</Joined1> 
+  <Joined2>142</Joined2>
+  <Observations>8</Observations>
+</Step> 
+<Step>
+  <Number>119</Number> 
+  <TotalClusters>97</TotalClusters> 
+  <Similarity>97.0666</Similarity> 
+  <Joined1>1</Joined1> 
+  <Joined2>18</Joined2>
+  <Observations>6</Observations>
+</Step> 
+<Step>
+  <Number>120</Number> 
+  <TotalClusters>96</TotalClusters> 
+  <Similarity>97.0627</Similarity> 
+  <Joined1>52</Joined1> 
+  <Joined2>183</Joined2>
+  <Observations>3</Observations>
+</Step> 
+<Step>
+  <Number>121</Number> 
+  <TotalClusters>95</TotalClusters> 
+  <Similarity>97.0335</Similarity> 
+  <Joined1>53</Joined1> 
+  <Joined2>152</Joined2>
+  <Observations>3</Observations>
+</Step> 
+<Step>
+  <Number>122</Number> 
+  <TotalClusters>94</TotalClusters> 
+  <Similarity>96.9735</Similarity> 
+  <Joined1>45</Joined1> 
+  <Joined2>59</Joined2>
+  <Observations>4</Observations>
+</Step> 
+<Step>
+  <Number>123</Number> 
+  <TotalClusters>93</TotalClusters> 
+  <Similarity>96.9724</Similarity> 
+  <Joined1>11</Joined1> 
+  <Joined2>36</Joined2>
+  <Observations>6</Observations>
+</Step> 
+<Step>
+  <Number>124</Number> 
+  <TotalClusters>92</TotalClusters> 
+  <Similarity>96.9722</Similarity> 
+  <Joined1>65</Joined1> 
+  <Joined2>117</Joined2>
+  <Observations>4</Observations>
+</Step> 
+<Step>
+  <Number>125</Number> 
+  <TotalClusters>91</TotalClusters> 
+  <Similarity>96.9574</Similarity> 
+  <Joined1>24</Joined1> 
+  <Joined2>77</Joined2>
+  <Observations>6</Observations>
+</Step> 
+<Step>
+  <Number>126</Number> 
+  <TotalClusters>90</TotalClusters> 
+  <Similarity>96.9321</Similarity> 
+  <Joined1>5</Joined1> 
+  <Joined2>22</Joined2>
+  <Observations>6</Observations>
+</Step> 
+<Step>
+  <Number>127</Number> 
+  <TotalClusters>89</TotalClusters> 
+  <Similarity>96.9200</Similarity> 
+  <Joined1>54</Joined1> 
+  <Joined2>127</Joined2>
+  <Observations>3</Observations>
+</Step> 
+<Step>
+  <Number>128</Number> 
+  <TotalClusters>88</TotalClusters> 
+  <Similarity>96.8810</Similarity> 
+  <Joined1>52</Joined1> 
+  <Joined2>84</Joined2>
+  <Observations>5</Observations>
+</Step> 
+<Step>
+  <Number>129</Number> 
+  <TotalClusters>87</TotalClusters> 
+  <Similarity>96.8391</Similarity> 
+  <Joined1>79</Joined1> 
+  <Joined2>81</Joined2>
+  <Observations>6</Observations>
+</Step> 
+<Step>
+  <Number>130</Number> 
+  <TotalClusters>86</TotalClusters> 
+  <Similarity>96.7909</Similarity> 
+  <Joined1>31</Joined1> 
+  <Joined2>45</Joined2>
+  <Observations>6</Observations>
+</Step> 
+<Step>
+  <Number>131</Number> 
+  <TotalClusters>85</TotalClusters> 
+  <Similarity>96.7657</Similarity> 
+  <Joined1>56</Joined1> 
+  <Joined2>85</Joined2>
+  <Observations>3</Observations>
+</Step> 
+<Step>
+  <Number>132</Number> 
+  <TotalClusters>84</TotalClusters> 
+  <Similarity>96.7198</Similarity> 
+  <Joined1>74</Joined1> 
+  <Joined2>169</Joined2>
+  <Observations>3</Observations>
+</Step> 
+<Step>
+  <Number>133</Number> 
+  <TotalClusters>83</TotalClusters> 
+  <Similarity>96.7191</Similarity> 
+  <Joined1>174</Joined1> 
+  <Joined2>199</Joined2>
+  <Observations>2</Observations>
+</Step> 
+<Step>
+  <Number>134</Number> 
+  <TotalClusters>82</TotalClusters> 
+  <Similarity>96.7010</Similarity> 
+  <Joined1>40</Joined1> 
+  <Joined2>56</Joined2>
+  <Observations>6</Observations>
+</Step> 
+<Step>
+  <Number>135</Number> 
+  <TotalClusters>81</TotalClusters> 
+  <Similarity>96.6886</Similarity> 
+  <Joined1>13</Joined1> 
+  <Joined2>21</Joined2>
+  <Observations>5</Observations>
+</Step> 
+<Step>
+  <Number>136</Number> 
+  <TotalClusters>80</TotalClusters> 
+  <Similarity>96.6006</Similarity> 
+  <Joined1>110</Joined1> 
+  <Joined2>122</Joined2>
+  <Observations>4</Observations>
+</Step> 
+<Step>
+  <Number>137</Number> 
+  <TotalClusters>79</TotalClusters> 
+  <Similarity>96.5170</Similarity> 
+  <Joined1>126</Joined1> 
+  <Joined2>133</Joined2>
+  <Observations>3</Observations>
+</Step> 
+<Step>
+  <Number>138</Number> 
+  <TotalClusters>78</TotalClusters> 
+  <Similarity>96.4300</Similarity> 
+  <Joined1>16</Joined1> 
+  <Joined2>87</Joined2>
+  <Observations>6</Observations>
+</Step> 
+<Step>
+  <Number>139</Number> 
+  <TotalClusters>77</TotalClusters> 
+  <Similarity>96.4031</Similarity> 
+  <Joined1>2</Joined1> 
+  <Joined2>124</Joined2>
+  <Observations>6</Observations>
+</Step> 
+<Step>
+  <Number>140</Number> 
+  <TotalClusters>76</TotalClusters> 
+  <Similarity>96.3913</Similarity> 
+  <Joined1>39</Joined1> 
+  <Joined2>55</Joined2>
+  <Observations>6</Observations>
+</Step> 
+<Step>
+  <Number>141</Number> 
+  <TotalClusters>75</TotalClusters> 
+  <Similarity>96.3699</Similarity> 
+  <Joined1>79</Joined1> 
+  <Joined2>190</Joined2>
+  <Observations>8</Observations>
+</Step> 
+<Step>
+  <Number>142</Number> 
+  <TotalClusters>74</TotalClusters> 
+  <Similarity>96.3695</Similarity> 
+  <Joined1>50</Joined1> 
+  <Joined2>120</Joined2>
+  <Observations>4</Observations>
+</Step> 
+<Step>
+  <Number>143</Number> 
+  <TotalClusters>73</TotalClusters> 
+  <Similarity>96.3318</Similarity> 
+  <Joined1>80</Joined1> 
+  <Joined2>130</Joined2>
+  <Observations>2</Observations>
+</Step> 
+<Step>
+  <Number>144</Number> 
+  <TotalClusters>72</TotalClusters> 
+  <Similarity>96.2894</Similarity> 
+  <Joined1>43</Joined1> 
+  <Joined2>136</Joined2>
+  <Observations>5</Observations>
+</Step> 
+<Step>
+  <Number>145</Number> 
+  <TotalClusters>71</TotalClusters> 
+  <Similarity>96.1968</Similarity> 
+  <Joined1>156</Joined1> 
+  <Joined2>182</Joined2>
+  <Observations>2</Observations>
+</Step> 
+<Step>
+  <Number>146</Number> 
+  <TotalClusters>70</TotalClusters> 
+  <Similarity>96.1932</Similarity> 
+  <Joined1>10</Joined1> 
+  <Joined2>86</Joined2>
+  <Observations>4</Observations>
+</Step> 
+<Step>
+  <Number>147</Number> 
+  <TotalClusters>69</TotalClusters> 
+  <Similarity>96.0669</Similarity> 
+  <Joined1>25</Joined1> 
+  <Joined2>54</Joined2>
+  <Observations>4</Observations>
+</Step> 
+<Step>
+  <Number>148</Number> 
+  <TotalClusters>68</TotalClusters> 
+  <Similarity>96.0504</Similarity> 
+  <Joined1>26</Joined1> 
+  <Joined2>78</Joined2>
+  <Observations>7</Observations>
+</Step> 
+<Step>
+  <Number>149</Number> 
+  <TotalClusters>67</TotalClusters> 
+  <Similarity>96.0486</Similarity> 
+  <Joined1>1</Joined1> 
+  <Joined2>17</Joined2>
+  <Observations>8</Observations>
+</Step> 
+<Step>
+  <Number>150</Number> 
+  <TotalClusters>66</TotalClusters> 
+  <Similarity>95.9816</Similarity> 
+  <Joined1>58</Joined1> 
+  <Joined2>60</Joined2>
+  <Observations>7</Observations>
+</Step> 
+<Step>
+  <Number>151</Number> 
+  <TotalClusters>65</TotalClusters> 
+  <Similarity>95.9764</Similarity> 
+  <Joined1>31</Joined1> 
+  <Joined2>47</Joined2>
+  <Observations>8</Observations>
+</Step> 
+<Step>
+  <Number>152</Number> 
+  <TotalClusters>64</TotalClusters> 
+  <Similarity>95.9024</Similarity> 
+  <Joined1>3</Joined1> 
+  <Joined2>104</Joined2>
+  <Observations>10</Observations>
+</Step> 
+<Step>
+  <Number>153</Number> 
+  <TotalClusters>63</TotalClusters> 
+  <Similarity>95.8385</Similarity> 
+  <Joined1>5</Joined1> 
+  <Joined2>99</Joined2>
+  <Observations>7</Observations>
+</Step> 
+<Step>
+  <Number>154</Number> 
+  <TotalClusters>62</TotalClusters> 
+  <Similarity>95.8177</Similarity> 
+  <Joined1>12</Joined1> 
+  <Joined2>203</Joined2>
+  <Observations>2</Observations>
+</Step> 
+<Step>
+  <Number>155</Number> 
+  <TotalClusters>61</TotalClusters> 
+  <Similarity>95.8113</Similarity> 
+  <Joined1>4</Joined1> 
+  <Joined2>52</Joined2>
+  <Observations>7</Observations>
+</Step> 
+<Step>
+  <Number>156</Number> 
+  <TotalClusters>60</TotalClusters> 
+  <Similarity>95.8100</Similarity> 
+  <Joined1>24</Joined1> 
+  <Joined2>80</Joined2>
+  <Observations>8</Observations>
+</Step> 
+<Step>
+  <Number>157</Number> 
+  <TotalClusters>59</TotalClusters> 
+  <Similarity>95.8073</Similarity> 
+  <Joined1>65</Joined1> 
+  <Joined2>178</Joined2>
+  <Observations>5</Observations>
+</Step> 
+<Step>
+  <Number>158</Number> 
+  <TotalClusters>58</TotalClusters> 
+  <Similarity>95.7769</Similarity> 
+  <Joined1>53</Joined1> 
+  <Joined2>69</Joined2>
+  <Observations>4</Observations>
+</Step> 
+<Step>
+  <Number>159</Number> 
+  <TotalClusters>57</TotalClusters> 
+  <Similarity>95.7746</Similarity> 
+  <Joined1>96</Joined1> 
+  <Joined2>107</Joined2>
+  <Observations>3</Observations>
+</Step> 
+<Step>
+  <Number>160</Number> 
+  <TotalClusters>56</TotalClusters> 
+  <Similarity>95.7380</Similarity> 
+  <Joined1>155</Joined1> 
+  <Joined2>175</Joined2>
+  <Observations>2</Observations>
+</Step> 
+<Step>
+  <Number>161</Number> 
+  <TotalClusters>55</TotalClusters> 
+  <Similarity>95.5547</Similarity> 
+  <Joined1>13</Joined1> 
+  <Joined2>25</Joined2>
+  <Observations>9</Observations>
+</Step> 
+<Step>
+  <Number>162</Number> 
+  <TotalClusters>54</TotalClusters> 
+  <Similarity>95.4973</Similarity> 
+  <Joined1>1</Joined1> 
+  <Joined2>89</Joined2>
+  <Observations>10</Observations>
+</Step> 
+<Step>
+  <Number>163</Number> 
+  <TotalClusters>53</TotalClusters> 
+  <Similarity>95.4971</Similarity> 
+  <Joined1>9</Joined1> 
+  <Joined2>198</Joined2>
+  <Observations>4</Observations>
+</Step> 
+<Step>
+  <Number>164</Number> 
+  <TotalClusters>52</TotalClusters> 
+  <Similarity>95.4281</Similarity> 
+  <Joined1>20</Joined1> 
+  <Joined2>72</Joined2>
+  <Observations>7</Observations>
+</Step> 
+<Step>
+  <Number>165</Number> 
+  <TotalClusters>51</TotalClusters> 
+  <Similarity>95.4205</Similarity> 
+  <Joined1>11</Joined1> 
+  <Joined2>37</Joined2>
+  <Observations>9</Observations>
+</Step> 
+<Step>
+  <Number>166</Number> 
+  <TotalClusters>50</TotalClusters> 
+  <Similarity>95.3737</Similarity> 
+  <Joined1>39</Joined1> 
+  <Joined2>71</Joined2>
+  <Observations>7</Observations>
+</Step> 
+<Step>
+  <Number>167</Number> 
+  <TotalClusters>49</TotalClusters> 
+  <Similarity>95.3362</Similarity> 
+  <Joined1>46</Joined1> 
+  <Joined2>53</Joined2>
+  <Observations>8</Observations>
+</Step> 
+<Step>
+  <Number>168</Number> 
+  <TotalClusters>48</TotalClusters> 
+  <Similarity>95.2928</Similarity> 
+  <Joined1>43</Joined1> 
+  <Joined2>126</Joined2>
+  <Observations>8</Observations>
+</Step> 
+<Step>
+  <Number>169</Number> 
+  <TotalClusters>47</TotalClusters> 
+  <Similarity>95.2114</Similarity> 
+  <Joined1>14</Joined1> 
+  <Joined2>174</Joined2>
+  <Observations>10</Observations>
+</Step> 
+<Step>
+  <Number>170</Number> 
+  <TotalClusters>46</TotalClusters> 
+  <Similarity>94.8905</Similarity> 
+  <Joined1>11</Joined1> 
+  <Joined2>40</Joined2>
+  <Observations>15</Observations>
+</Step> 
+<Step>
+  <Number>171</Number> 
+  <TotalClusters>45</TotalClusters> 
+  <Similarity>94.8860</Similarity> 
+  <Joined1>24</Joined1> 
+  <Joined2>29</Joined2>
+  <Observations>11</Observations>
+</Step> 
+<Step>
+  <Number>172</Number> 
+  <TotalClusters>44</TotalClusters> 
+  <Similarity>94.8088</Similarity> 
+  <Joined1>9</Joined1> 
+  <Joined2>10</Joined2>
+  <Observations>8</Observations>
+</Step> 
+<Step>
+  <Number>173</Number> 
+  <TotalClusters>43</TotalClusters> 
+  <Similarity>94.7771</Similarity> 
+  <Joined1>105</Joined1> 
+  <Joined2>160</Joined2>
+  <Observations>5</Observations>
+</Step> 
+<Step>
+  <Number>174</Number> 
+  <TotalClusters>42</TotalClusters> 
+  <Similarity>94.7663</Similarity> 
+  <Joined1>26</Joined1> 
+  <Joined2>50</Joined2>
+  <Observations>11</Observations>
+</Step> 
+<Step>
+  <Number>175</Number> 
+  <TotalClusters>41</TotalClusters> 
+  <Similarity>94.7538</Similarity> 
+  <Joined1>110</Joined1> 
+  <Joined2>135</Joined2>
+  <Observations>5</Observations>
+</Step> 
+<Step>
+  <Number>176</Number> 
+  <TotalClusters>40</TotalClusters> 
+  <Similarity>94.7064</Similarity> 
+  <Joined1>46</Joined1> 
+  <Joined2>211</Joined2>
+  <Observations>9</Observations>
+</Step> 
+<Step>
+  <Number>177</Number> 
+  <TotalClusters>39</TotalClusters> 
+  <Similarity>94.5953</Similarity> 
+  <Joined1>14</Joined1> 
+  <Joined2>33</Joined2>
+  <Observations>13</Observations>
+</Step> 
+<Step>
+  <Number>178</Number> 
+  <TotalClusters>38</TotalClusters> 
+  <Similarity>94.5504</Similarity> 
+  <Joined1>16</Joined1> 
+  <Joined2>30</Joined2>
+  <Observations>8</Observations>
+</Step> 
+<Step>
+  <Number>179</Number> 
+  <TotalClusters>37</TotalClusters> 
+  <Similarity>94.4917</Similarity> 
+  <Joined1>31</Joined1> 
+  <Joined2>139</Joined2>
+  <Observations>10</Observations>
+</Step> 
+<Step>
+  <Number>180</Number> 
+  <TotalClusters>36</TotalClusters> 
+  <Similarity>94.4913</Similarity> 
+  <Joined1>2</Joined1> 
+  <Joined2>41</Joined2>
+  <Observations>8</Observations>
+</Step> 
+<Step>
+  <Number>181</Number> 
+  <TotalClusters>35</TotalClusters> 
+  <Similarity>94.4873</Similarity> 
+  <Joined1>5</Joined1> 
+  <Joined2>74</Joined2>
+  <Observations>10</Observations>
+</Step> 
+<Step>
+  <Number>182</Number> 
+  <TotalClusters>34</TotalClusters> 
+  <Similarity>94.3267</Similarity> 
+  <Joined1>4</Joined1> 
+  <Joined2>46</Joined2>
+  <Observations>16</Observations>
+</Step> 
+<Step>
+  <Number>183</Number> 
+  <TotalClusters>33</TotalClusters> 
+  <Similarity>94.1305</Similarity> 
+  <Joined1>16</Joined1> 
+  <Joined2>20</Joined2>
+  <Observations>15</Observations>
+</Step> 
+<Step>
+  <Number>184</Number> 
+  <TotalClusters>32</TotalClusters> 
+  <Similarity>93.9575</Similarity> 
+  <Joined1>15</Joined1> 
+  <Joined2>79</Joined2>
+  <Observations>10</Observations>
+</Step> 
+<Step>
+  <Number>185</Number> 
+  <TotalClusters>31</TotalClusters> 
+  <Similarity>93.9495</Similarity> 
+  <Joined1>27</Joined1> 
+  <Joined2>43</Joined2>
+  <Observations>9</Observations>
+</Step> 
+<Step>
+  <Number>186</Number> 
+  <TotalClusters>30</TotalClusters> 
+  <Similarity>93.9399</Similarity> 
+  <Joined1>12</Joined1> 
+  <Joined2>39</Joined2>
+  <Observations>9</Observations>
+</Step> 
+<Step>
+  <Number>187</Number> 
+  <TotalClusters>29</TotalClusters> 
+  <Similarity>93.6620</Similarity> 
+  <Joined1>6</Joined1> 
+  <Joined2>13</Joined2>
+  <Observations>12</Observations>
+</Step> 
+<Step>
+  <Number>188</Number> 
+  <TotalClusters>28</TotalClusters> 
+  <Similarity>93.6060</Similarity> 
+  <Joined1>3</Joined1> 
+  <Joined2>15</Joined2>
+  <Observations>20</Observations>
+</Step> 
+<Step>
+  <Number>189</Number> 
+  <TotalClusters>27</TotalClusters> 
+  <Similarity>93.5983</Similarity> 
+  <Joined1>12</Joined1> 
+  <Joined2>26</Joined2>
+  <Observations>20</Observations>
+</Step> 
+<Step>
+  <Number>190</Number> 
+  <TotalClusters>26</TotalClusters> 
+  <Similarity>93.5006</Similarity> 
+  <Joined1>96</Joined1> 
+  <Joined2>156</Joined2>
+  <Observations>5</Observations>
+</Step> 
+<Step>
+  <Number>191</Number> 
+  <TotalClusters>25</TotalClusters> 
+  <Similarity>93.4599</Similarity> 
+  <Joined1>6</Joined1> 
+  <Joined2>110</Joined2>
+  <Observations>17</Observations>
+</Step> 
+<Step>
+  <Number>192</Number> 
+  <TotalClusters>24</TotalClusters> 
+  <Similarity>93.4485</Similarity> 
+  <Joined1>9</Joined1> 
+  <Joined2>24</Joined2>
+  <Observations>19</Observations>
+</Step> 
+<Step>
+  <Number>193</Number> 
+  <TotalClusters>23</TotalClusters> 
+  <Similarity>93.3275</Similarity> 
+  <Joined1>7</Joined1> 
+  <Joined2>27</Joined2>
+  <Observations>10</Observations>
+</Step> 
+<Step>
+  <Number>194</Number> 
+  <TotalClusters>22</TotalClusters> 
+  <Similarity>93.2805</Similarity> 
+  <Joined1>105</Joined1> 
+  <Joined2>155</Joined2>
+  <Observations>7</Observations>
+</Step> 
+<Step>
+  <Number>195</Number> 
+  <TotalClusters>21</TotalClusters> 
+  <Similarity>93.1914</Similarity> 
+  <Joined1>14</Joined1> 
+  <Joined2>16</Joined2>
+  <Observations>28</Observations>
+</Step> 
+<Step>
+  <Number>196</Number> 
+  <TotalClusters>20</TotalClusters> 
+  <Similarity>92.8748</Similarity> 
+  <Joined1>2</Joined1> 
+  <Joined2>65</Joined2>
+  <Observations>13</Observations>
+</Step> 
+<Step>
+  <Number>197</Number> 
+  <TotalClusters>19</TotalClusters> 
+  <Similarity>92.8633</Similarity> 
+  <Joined1>6</Joined1> 
+  <Joined2>19</Joined2>
+  <Observations>19</Observations>
+</Step> 
+<Step>
+  <Number>198</Number> 
+  <TotalClusters>18</TotalClusters> 
+  <Similarity>92.7444</Similarity> 
+  <Joined1>31</Joined1> 
+  <Joined2>125</Joined2>
+  <Observations>11</Observations>
+</Step> 
+<Step>
+  <Number>199</Number> 
+  <TotalClusters>17</TotalClusters> 
+  <Similarity>92.7276</Similarity> 
+  <Joined1>7</Joined1> 
+  <Joined2>96</Joined2>
+  <Observations>15</Observations>
+</Step> 
+<Step>
+  <Number>200</Number> 
+  <TotalClusters>16</TotalClusters> 
+  <Similarity>92.3963</Similarity> 
+  <Joined1>3</Joined1> 
+  <Joined2>5</Joined2>
+  <Observations>30</Observations>
+</Step> 
+<Step>
+  <Number>201</Number> 
+  <TotalClusters>15</TotalClusters> 
+  <Similarity>92.3359</Similarity> 
+  <Joined1>11</Joined1> 
+  <Joined2>148</Joined2>
+  <Observations>16</Observations>
+</Step> 
+<Step>
+  <Number>202</Number> 
+  <TotalClusters>14</TotalClusters> 
+  <Similarity>91.7431</Similarity> 
+  <Joined1>8</Joined1> 
+  <Joined2>58</Joined2>
+  <Observations>9</Observations>
+</Step> 
+<Step>
+  <Number>203</Number> 
+  <TotalClusters>13</TotalClusters> 
+  <Similarity>91.6023</Similarity> 
+  <Joined1>1</Joined1> 
+  <Joined2>105</Joined2>
+  <Observations>17</Observations>
+</Step> 
+<Step>
+  <Number>204</Number> 
+  <TotalClusters>12</TotalClusters> 
+  <Similarity>91.5072</Similarity> 
+  <Joined1>4</Joined1> 
+  <Joined2>11</Joined2>
+  <Observations>32</Observations>
+</Step> 
+<Step>
+  <Number>205</Number> 
+  <TotalClusters>11</TotalClusters> 
+  <Similarity>91.3323</Similarity> 
+  <Joined1>6</Joined1> 
+  <Joined2>8</Joined2>
+  <Observations>28</Observations>
+</Step> 
+<Step>
+  <Number>206</Number> 
+  <TotalClusters>10</TotalClusters> 
+  <Similarity>91.2985</Similarity> 
+  <Joined1>12</Joined1> 
+  <Joined2>31</Joined2>
+  <Observations>31</Observations>
+</Step> 
+<Step>
+  <Number>207</Number> 
+  <TotalClusters>9</TotalClusters> 
+  <Similarity>89.5283</Similarity> 
+  <Joined1>2</Joined1> 
+  <Joined2>32</Joined2>
+  <Observations>16</Observations>
+</Step> 
+<Step>
+  <Number>208</Number> 
+  <TotalClusters>8</TotalClusters> 
+  <Similarity>89.4073</Similarity> 
+  <Joined1>9</Joined1> 
+  <Joined2>14</Joined2>
+  <Observations>47</Observations>
+</Step> 
+<Step>
+  <Number>209</Number> 
+  <TotalClusters>7</TotalClusters> 
+  <Similarity>88.7520</Similarity> 
+  <Joined1>2</Joined1> 
+  <Joined2>12</Joined2>
+  <Observations>47</Observations>
+</Step> 
+<Step>
+  <Number>210</Number> 
+  <TotalClusters>6</TotalClusters> 
+  <Similarity>87.8713</Similarity> 
+  <Joined1>3</Joined1> 
+  <Joined2>7</Joined2>
+  <Observations>45</Observations>
+</Step> 
+<Step>
+  <Number>211</Number> 
+  <TotalClusters>5</TotalClusters> 
+  <Similarity>85.8245</Similarity> 
+  <Joined1>1</Joined1> 
+  <Joined2>6</Joined2>
+  <Observations>45</Observations>
+</Step> 
+<Step>
+  <Number>212</Number> 
+  <TotalClusters>4</TotalClusters> 
+  <Similarity>83.5117</Similarity> 
+  <Joined1>3</Joined1> 
+  <Joined2>4</Joined2>
+  <Observations>77</Observations>
+</Step> 
+<Step>
+  <Number>213</Number> 
+  <TotalClusters>3</TotalClusters> 
+  <Similarity>75.0881</Similarity> 
+  <Joined1>1</Joined1> 
+  <Joined2>9</Joined2>
+  <Observations>92</Observations>
+</Step> 
+<Step>
+  <Number>214</Number> 
+  <TotalClusters>2</TotalClusters> 
+  <Similarity>71.7995</Similarity> 
+  <Joined1>2</Joined1> 
+  <Joined2>3</Joined2>
+  <Observations>124</Observations>
+</Step> 
+<Step>
+  <Number>215</Number> 
+  <TotalClusters>1</TotalClusters> 
+  <Similarity>45.6365</Similarity> 
+  <Joined1>1</Joined1> 
+  <Joined2>2</Joined2>
+  <Observations>216</Observations>
+</Step> 
+</Root>
