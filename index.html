@@ -1,54 +1,94 @@
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>dragit by romsson</title>
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <style>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
 
-    h2 {
-      font-weight: 200;
-      margin-top: 50px
-    }
-    </style>
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <h1>dragit</h1>
-        <p>Direct manipulation of data graphics</p>
+<style type="text/css">
+<!--
+body {
+	font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
+	background: #42413C;
+	margin: 0;
+	padding: 0;
+	color: #000;
+}
 
-        <p class="view"><a href="https://github.com/romsson/dragit">View the Project on GitHub <small>romsson/dragit</small></a></p>
+/* ~~ Element/tag selectors ~~ */
+ul, ol, dl { /* Due to variations between browsers, it's best practices to zero padding and margin on lists. For consistency, you can either specify the amounts you want here, or on the list items (LI, DT, DD) they contain. Remember that what you do here will cascade to the .nav list unless you write a more specific selector. */
+	padding: 0;
+	margin: 0;
+}
+h1, h2, h3, h4, h5, h6, p {
+	margin-top: 0;	 /* removing the top margin gets around an issue where margins can escape from their containing div. The remaining bottom margin will hold it away from any elements that follow. */
+	padding-right: 15px;
+	padding-left: 15px; /* adding the padding to the sides of the elements within the divs, instead of the divs themselves, gets rid of any box model math. A nested div with side padding can also be used as an alternate method. */
+}
+a img { /* this selector removes the default blue border displayed in some browsers around an image when it is surrounded by a link */
+	border: none;
+}
+/* ~~ Styling for your site's links must remain in this order - including the group of selectors that create the hover effect. ~~ */
+a:link {
+	color: #42413C;
+	text-decoration: underline; /* unless you style your links to look extremely unique, it's best to provide underlines for quick visual identification */
+}
+a:visited {
+	color: #6E6C64;
+	text-decoration: underline;
+}
+a:hover, a:active, a:focus { /* this group of selectors will give a keyboard navigator the same hover experience as the person using a mouse. */
+	text-decoration: none;
+}
 
+/* ~~ Change the width of the landing page here ~~ */
+.container {
+	width: 850px;
+	background: #FFF;
+	margin: 0 auto; /* the auto value on the sides, coupled with the width, centers the layout */
+}
 
-        <ul>
-          <li><a href="https://github.com/romsson/dragit/zipball/master">Download <strong>ZIP File</strong></a></li>
-          <li><a href="https://github.com/romsson/dragit/tarball/master">Download <strong>TAR Ball</strong></a></li>
-          <li><a href="https://github.com/romsson/dragit">View On <strong>GitHub</strong></a></li>
-        </ul>
-      </header>
-      <section>
+/* ~~ This is the layout information. ~~ 
 
-        <h2>Drag & Drop World Countries (if you can)</h2>
+1) Padding is only placed on the top and/or bottom of the div. The elements within this div have padding on their sides. This saves you from any "box model math". Keep in mind, if you add any side padding or border to the div itself, it will be added to the width you define to create the *total* width. You may also choose to remove the padding on the element in the div and place a second div within it with no width and the padding necessary for your design.
 
-        <a href="example/nations.html"><img src="img/nations.png"></a>
-        <h2>World Cup 2014: All Roads Lead to the Cup!</h2>
+*/
+.content {
 
-        <a href="http://romain.vuillemot.net/projects/worldcup14/"><img src="img/worldcup14.png"></a>
+	padding: 10px 0;
+}
 
-      </section>
-      <footer>
-        <p>This project is maintained by <a href="https://github.com/romsson">romsson</a></p>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-      </footer>
-    </div>
-    <script src="javascripts/scale.fix.js"></script>
-    
-  </body>
+/* ~~ miscellaneous float/clear classes ~~ */
+.fltrt {  /* this class can be used to float an element right in your page. The floated element must precede the element it should be next to on the page. */
+	float: right;
+	margin-left: 8px;
+}
+.fltlft { /* this class can be used to float an element left in your page. The floated element must precede the element it should be next to on the page. */
+	float: left;
+	margin-right: 8px;
+}
+.clearfloat { /* this class can be placed on a <br /> or empty div as the final element following the last floated div (within the #container) if the overflow:hidden on the .container is removed */
+	clear:both;
+	height:0;
+	font-size: 1px;
+	line-height: 0px;
+}
+-->
+</style></head>
+
+<body>
+
+<div class="container">
+  <div class="content">
+    <h1 align="center"><img src="logo.gif" width="350" height="150" alt="Logo" /></h1>
+    <h1>This is Your Landing Page</h1>
+    <p>To edit the style, widths, colors, you will need to modify the CSS which is located in the &lt;head&gt; of this page. Just right-click the landingPage.html file and &quot;Open With&quot; Notepad or any web editor. For example, to change the background color, edit the #42413C to whatever <a href="http://www.2createawebsite.com/build/hex-colors.html" target="_blank" rel="nofollow">hexadecimal code</a> you want. To change the width of the page, change the value of the &quot;container ID.&quot;</p>
+    <p>Replace the default logo with your own by saving the logo image in this same folder as this file. If you named the image something other than logo.gif, you'll need to change the name in the code so the image will display. Don't forget to <a href="http://www.2createawebsite.com/build/ftp.html" rel="nofollow">upload</a> the image to your web server or it will not display.</p>
+    <p>Now that you have a landing page you can add anything you want to this page. Add an <a href="http://www.2createawebsite.com/aweber" rel="nofollow" target="_blank">AWeber</a> newsletter form by simply copying and pasting the code <a href="http://www.2createawebsite.com/aweber" rel="nofollow" target="_blank">AWeber</a> provides.</p>
+    <p align="center"><a href="http://www.yoursite.com"><img src="buyNowRed.gif" alt="Buy Now" width="265" height="93" border="0" /></a></p>
+    <p align="left">There are more Buy Now buttons in the download folder.</p>
+    <h2>This is the &lt;H2&gt; Subtitle </h2>
+    <p>Add more content for your landing page here. </p>
+    <!-- end .content --></div>
+  <!-- end .container --></div>
+</body>
 </html>
