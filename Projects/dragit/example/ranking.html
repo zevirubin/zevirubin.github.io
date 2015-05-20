@@ -193,7 +193,7 @@ d3.json("../data/nations.json", function(nations) {
         clear_demo();
         if(dragit.statemachine.current_state == "idle") {
           dragit.trajectory.display(d, i)
-          dragit.utils.animateTrajectory(dragit.trajectory.display(d, i), dragit.time.current, 100)
+          dragit.utils.animateTrajectory(dragit.trajectory.display(d, i), dragit.time.current, 1000)
           countrylabel.text(d.name);
           dot.style("opacity", .4)
           d3.select(this).style("opacity", 1)
