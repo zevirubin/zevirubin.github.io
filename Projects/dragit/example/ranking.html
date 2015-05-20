@@ -89,7 +89,7 @@ path.lineTrajectory {
 
 <div id="chart" style="margin:0px"></div>
 <span id="min-time">1927</span> 
-<input type="range" name="points" min="0" max="87" step="1" value="0" id="slider-time" style="width:900px">
+<input type="range" name="points" min="0" max="86" step="1" value="0" id="slider-time" style="width:900px">
 <span id="max-time">2013</span>
 <br>
 <p>
@@ -193,7 +193,7 @@ d3.json("../data/nations.json", function(nations) {
         clear_demo();
         if(dragit.statemachine.current_state == "idle") {
           dragit.trajectory.display(d, i)
-          dragit.utils.animateTrajectory(dragit.trajectory.display(d, i), dragit.time.current, 1000)
+          dragit.utils.animateTrajectory(dragit.trajectory.display(d, i), dragit.time.current, 100)
           countrylabel.text(d.name);
           dot.style("opacity", .4)
           d3.select(this).style("opacity", 1)
