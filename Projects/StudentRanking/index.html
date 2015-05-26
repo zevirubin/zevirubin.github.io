@@ -54,9 +54,9 @@
                     var tooltip = d3.select("body")
                         .append("div")
                         .style("position", "absolute")
-                        .style("z-index", "10")
+                        .style("z-index", "12")
                         .style("visibility", "hidden")
-                        .text("a simple tooltip");
+                        .text("Testing Mouseover");
 
                     var sampleSVG = d3.select(".jumbotron")
                         .append("svg:svg")
@@ -65,8 +65,7 @@
                         .attr("height", 300);    
 
                     d3.select(".jumbotron svg")
-                        .append("svg:circle")
-                        .append("svg:path")
+                        .append("svg:svg")
                         .attr("stroke", "black")
                         .attr("fill", "aliceblue")
                         .attr("r", 50)
