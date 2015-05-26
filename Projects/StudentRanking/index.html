@@ -45,31 +45,9 @@
 				function openfileDialog() {
 					$("#fileLoader").click();
 				}
-                function InitChart() {
-                //d3.xml("values.xml", "application/xml", function(data)
-                    xmlDoc=loadXMLDoc("test_grades.xml");
-					x=xmlDoc.getElementsByTagName('STUDENT');
-					var grades = [];
-					var yogs = [];
-					var names = [];
-					for (i=0;i<x.length;i++)
-					{
-					  temp = x[i].getElementsByTagName('GRADE');
-					  temp2 = x[i].getElementsByTagName('NAME');
-					  temp3 = x[i].getElementsByTagName('YoG');
-					  var test = [];
-					  for(k=0; k<5; k++)
-					  {
-						var set = { per:temp[k].childNodes[0].nodeValue,
-									num:k+1
-								  };
-						test.push(set);
-					  }
-								  
-					  names.push(temp2[0].childNodes[0].nodeValue);
-					  yogs.push(temp3[0].childNodes[0].nodeValue);
-					  grades.push(test);
-					}
+
+
+                function Circle(){
 
 
                     
@@ -99,8 +77,44 @@
 
 
 
+                        
 
 
+
+
+
+
+                }
+
+
+
+
+
+                function InitChart() {
+                //d3.xml("values.xml", "application/xml", function(data)
+                    xmlDoc=loadXMLDoc("test_grades.xml");
+					x=xmlDoc.getElementsByTagName('STUDENT');
+					var grades = [];
+					var yogs = [];
+					var names = [];
+					for (i=0;i<x.length;i++)
+					{
+					  temp = x[i].getElementsByTagName('GRADE');
+					  temp2 = x[i].getElementsByTagName('NAME');
+					  temp3 = x[i].getElementsByTagName('YoG');
+					  var test = [];
+					  for(k=0; k<5; k++)
+					  {
+						var set = { per:temp[k].childNodes[0].nodeValue,
+									num:k+1
+								  };
+						test.push(set);
+					  }
+								  
+					  names.push(temp2[0].childNodes[0].nodeValue);
+					  yogs.push(temp3[0].childNodes[0].nodeValue);
+					  grades.push(test);
+					}
 
 
                     var vis = d3.select("#visualisation"),
@@ -144,6 +158,7 @@
 					}
 
                 }
+                Circle();
                 InitChart();
             </script>
         </div>
