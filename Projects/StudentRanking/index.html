@@ -165,19 +165,26 @@
                         .style("position", "absolute")
                         .style("z-index", "12")
                         .style("visibility", "hidden")
-                        .text("***************************");
+                        .text("Testing Mouseover");
 
+                    var sampleSVG = d3.select(".jumbotron")
+                        .append("svg:svg")
+                        .attr("class", "sample")
+                        .attr("width", 300)
+                        .attr("height", 300);    
 
                     d3.select(".jumbotron svg")
-                        .append("svg:path")
+                        .append("svg:circle")
                         .attr("stroke", "black")
                         .attr("fill", "aliceblue")
-                        .attr("r", 100)
-                        .attr("cx", 52)
-                        .attr("cy", 52)
+                        .attr("r", 50)
+                        .attr("cx", 200)
+                        .attr("cy", 200)
                         .on("mouseover", function(){return tooltip.style("visibility", "visible");})
                         .on("mousemove", function(){return tooltip.style("top", (event.pageY-10)+"px").style("left",(event.pageX+10)+"px");})
                         .on("mouseout", function(){return tooltip.style("visibility", "hidden");});
+
+
 
 
                 }
