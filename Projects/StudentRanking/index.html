@@ -157,6 +157,29 @@
 						    .attr('fill', 'none');
 					}
 
+
+
+
+                    var tooltip = d3.select("body")
+                        .append("div")
+                        .style("position", "absolute")
+                        .style("z-index", "12")
+                        .style("visibility", "hidden")
+                        .text("Testing Mouseover");
+
+
+                    d3.select(".jumbotron svg")
+                        .append("svg:d")
+                        .attr("stroke", "black")
+                        .attr("fill", "aliceblue")
+                        .attr("r", 50)
+                        .attr("cx", 52)
+                        .attr("cy", 52)
+                        .on("mouseover", function(){return tooltip.style("visibility", "visible");})
+                        .on("mousemove", function(){return tooltip.style("top", (event.pageY-10)+"px").style("left",(event.pageX+10)+"px");})
+                        .on("mouseout", function(){return tooltip.style("visibility", "hidden");});
+
+
                 }
                 Circle();
                 InitChart();
