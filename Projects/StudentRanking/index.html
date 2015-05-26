@@ -60,12 +60,10 @@
 
                     var sampleSVG = d3.select(".jumbotron")
                         .append("svg:svg")
-                        .attr("class", "sample")
-                        vis.append('svg:path')
-                            .attr('d', lineGen(grades[t]))
-                            .attr('stroke', function(d, j) {return "hsl(" + Math.random() * 360 + ",100%,50%)";})
-                            .attr('stroke-width', 8)
-                            .attr('fill', 'none');   
+                        .attr('d', lineGen(grades[t]))
+                        .attr('stroke', function(d, j) {return "hsl(" + Math.random() * 360 + ",100%,50%)";})
+                        .attr('stroke-width', 8)
+                        .attr('fill', 'none');   
 
                     d3.select(".jumbotron svg")
                         .append("svg:circle")
