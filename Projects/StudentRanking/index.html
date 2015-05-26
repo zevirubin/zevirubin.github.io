@@ -60,10 +60,9 @@
 
                     var sampleSVG = d3.select(".jumbotron")
                         .append("svg:svg")
-                        .attr('d', lineGen(grades[t]))
-                        .attr('stroke', function(d, j) {return "hsl(" + Math.random() * 360 + ",100%,50%)";})
-                        .attr('stroke-width', 8)
-                        .attr('fill', 'none');   
+                        .attr("class", "sample")
+                        .attr("width", 300)
+                        .attr("height", 300);    
 
                     d3.select(".jumbotron svg")
                         .append("svg:circle")
@@ -166,7 +165,7 @@
                         .style("position", "absolute")
                         .style("z-index", "12")
                         .style("visibility", "hidden")
-                        .text("Testing Mouseover");
+                        .text("***************************");
 
 
                     d3.select(".jumbotron svg")
