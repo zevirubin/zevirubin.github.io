@@ -116,7 +116,7 @@
                             .on("mousemove", function(){return tooltip.style("top", (event.pageY-10)+"px").style("left",(event.pageX+10)+"px");})
                             .on("mouseout", function(){return tooltip.style("visibility", "hidden");})
                             ;
-;
+                            ;
 
 					}
 
@@ -127,7 +127,8 @@
                         .style("position", "absolute")
                         .style("z-index", "12")
                         .style("visibility", "hidden")
-                        .text("Testing Mouseover", names[t]);
+                        .text("Testing Mouseover")
+                        .text(names[t]);
 
                     
 
