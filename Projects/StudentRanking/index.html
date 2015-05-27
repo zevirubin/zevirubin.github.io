@@ -112,9 +112,7 @@
 						    .attr('stroke', function(d, j) {return "hsl(" + Math.random() * 360 + ",100%,50%)";})
 						    .attr('stroke-width', 8)
 						    .attr('fill', 'none')
-                            .on("mouseover", function(){return tooltip.style("visibility", "visible");})
-
-                            .on("mouseover", function(){return tooltip.text(t);})        
+                            .on("mouseover", function(){return tooltip.style("visibility", "visible");})       
 
                             .on("mousemove", function(){return tooltip.style("top", (event.pageY-10)+"px").style("left",(event.pageX+10)+"px");})
                             .on("mouseout", function(){return tooltip.style("visibility", "hidden");})
@@ -131,12 +129,6 @@
                         .style("z-index", "12")
                         .style("visibility", "hidden")
                         .text("Testing Mouseover")
-                        .text(names[t]);
-
-                    
-
-
-
                 }
                 
                 InitChart();
