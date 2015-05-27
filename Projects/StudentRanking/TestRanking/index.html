@@ -46,7 +46,8 @@
 				function get_filename(obj)
 				{
 					var file = obj.value;
-					//alert(file);
+					file = file.replace(/^.*[\\\/]/, '');
+					alert(file);
 					d3.selectAll("svg > *").remove();
 					InitChart(file);
 				}
