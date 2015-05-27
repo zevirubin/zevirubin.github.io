@@ -114,7 +114,7 @@
 						vis.append('svg:path')
 						    .attr('d', lineGen(grades[t]))
 						    .attr('stroke', function(d, j) {return "hsl(" + Math.random() * 360 + ",100%,50%)";})
-						    .attr('stroke-width', 2)
+						    .attr('stroke-width', 8)
 						    .attr('fill', 'none')
 							.on("mouseover", function(){return tooltip.style("visibility", "visible");})
 							.on("mousemove", function(){return tooltip.style("top", (event.pageY-10)+"px").style("left",(event.pageX+10)+"px");})
