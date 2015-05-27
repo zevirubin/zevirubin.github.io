@@ -3,7 +3,7 @@
 <head>
 	<script>
 	function loadXMLDoc(filename)
-      {
+    {
         if (window.XMLHttpRequest)
         {
           xhttp=new XMLHttpRequest();
@@ -15,7 +15,8 @@
         xhttp.open("GET",filename,false);
         xhttp.send();
         return xhttp.responseXML;
-      }
+    }
+	
 	</script>
 	<link href="http://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="http://getbootstrap.com/examples/justified-nav/justified-nav.css" rel="stylesheet">
@@ -31,60 +32,27 @@
             font-family: Lato;
             font-size: 13px;
         }
-		
-		svg { 
-			pointer-events: all;
-		}
-		.x.axis path {
-			fill: none;
-			stroke: white;
-			stroke-width: 1px;
-			opacity: 0.8;
-		}
-		text { 
-			color: white;
-			stroke: white;
-			fill: white;
-		}
-		.hover-line { 
-			stroke: white;  
-			fill: none;
-			stroke-width: 1px;
-		}
-		.inlet {
-			stroke: red;
-			color: red;
-			stroke-width: 2px;
-			opacity: 0.8;
-			fill: none;
-		}
-		.discharge {
-			stroke: steelblue;
-			color: steelblue;
-			stroke-width: 2px;
-			opacity: 0.8;
-			fill: none;
-		}
-
     </style>
-
-    <script type="text/javascript" src="http://mbostock.github.com/d3/d3.js"></script>
 </head>
 <body>
     <div class="container">
         <div class="jumbotron">
             <svg id="visualisation" width="1000" height="500"></svg>
-			<input type="file" id="fileLoader" name="files" title="Load File" />
+			<input type="file" name="file" value="" onchange="get_filename(this);" />
             <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
             <script>
-				function openfileDialog() {
-					$("#fileLoader").click();
+				
+				var file = "test_grades.xml";
+				function get_filename(obj)
+				{
+					var file = obj.value;
+					//alert(file);
+					d3.selectAll("svg > *").remove();
+					InitChart(file);
 				}
-
-
-                function InitChart() {
-                //d3.xml("values.xml", "application/xml", function(data)
-                    xmlDoc=loadXMLDoc("test_grades.xml");
+                function InitChart(file) {
+					var xmlDoc=loadXMLDoc(file);
+                    //var xmlDoc=loadXMLDoc(filename);
 					x=xmlDoc.getElementsByTagName('STUDENT');
 					var grades = [];
 					var yogs = [];
@@ -107,8 +75,6 @@
 					  yogs.push(temp3[0].childNodes[0].nodeValue);
 					  grades.push(test);
 					}
-
-
                     var vis = d3.select("#visualisation"),
                         WIDTH = 700,
                         HEIGHT = 500,
@@ -145,93 +111,22 @@
 						vis.append('svg:path')
 						    .attr('d', lineGen(grades[t]))
 						    .attr('stroke', function(d, j) {return "hsl(" + Math.random() * 360 + ",100%,50%)";})
-						    .attr('stroke-width', 8)
+						    .attr('stroke-width', 2)
 						    .attr('fill', 'none')
-                            .on("mouseover", function(){return tooltip.style("visibility", "visible");})       
-
-                            .on("mousemove", function(){return tooltip.style("top", (event.pageY-10)+"px").style("left",(event.pageX+10)+"px");})
-                            .on("mouseout", function(){return tooltip.style("visibility", "hidden");})
-                            ;
-                            ;
-
+							.on("mouseover", function(){return tooltip.style("visibility", "visible");})
+							.on("mousemove", function(){return tooltip.style("top", (event.pageY-10)+"px").style("left",(event.pageX+10)+"px");})
+							.on("mouseout", function(){return tooltip.style("visibility", "hidden");})
 					}
-
-					
-					
-// Hover line. 
-var hoverLineGroup = svg.append("g")
-					.attr("class", "hover-line");
-var hoverLine = hoverLineGroup
-	.append("line")
-		.attr("x1", 10).attr("x2", 10) 
-		.attr("y1", 0).attr("y2", height); 
-
-var hoverDate = hoverLineGroup.append('text')
-   .attr("class", "hover-text")
-   .attr('y', height+20);
-
-// Hide hover line by default.
-hoverLineGroup.style("opacity", 1e-6);
-
-// Process data.
-data['inlet'].forEach(function(d, i) {
-  d.date = parseDate.parse(d.datestr);
-});
-data['discharge'].forEach(function(d, i) {
-  d.date = parseDate.parse(d.datestr);
-});
-
-x.domain(d3.extent(data.inlet, function(d) { return d.date; }));
-var inletMax = d3.max(data.inlet, function(d) { return d.value; });
-var dischargeMax = d3.max(data.discharge, function(d) { return d.value; })
-var max = d3.max([inletMax, dischargeMax]);
-console.log('new max y', max)
-y.domain([0, max]);
-xAxis.tickFormat(d3.time.format('%b %Y'));
-xAxis.ticks(d3.time.months, 1);
-
-// Width of bars, without padding. 
-var barRawWidth = width / data['inlet'].length;
-var barPadding = 0;
-var xStart = barPadding + (barRawWidth/2);
-
-
-                
-// Add mouseover events.
-d3.select('.jumbotron').on("mouseover", function() { 
-  console.log('mouseover')
-}).on("mousemove", function() {
-  console.log('mousemove', d3.mouse(this));
-  var mouse_x = d3.mouse(this)[0];
-  var mouse_y = d3.mouse(this)[1];
-  var graph_y = y.invert(mouse_y);
-  var graph_x = x.invert(mouse_x);
-  console.log(graph_x);
-  var format = d3.time.format('%e %b');
-  //format.parse(graph_x)
-  hoverDate.text(graph_x);
-  hoverDate.attr('x', mouse_x);
-  console.log(x.invert(mouse_x));
-  hoverLine.attr("x1", mouse_x).attr("x2", mouse_x)
-  hoverLineGroup.style("opacity", 1);
-    
-})  .on("mouseout", function() {
-    console.log('mouseout');
-    hoverLineGroup.style("opacity", 1e-6);
-  });
-					
-					
-					
-
-                    var tooltip = d3.select("body")
-                        .append("div")
-                        .style("position", "absolute")
-                        .style("z-index", "12")
-                        .style("visibility", "hidden")
-                        .text("Testing Mouseover")
+					var tooltip = d3.select("body")
+						.append("div")
+						.style("position", "absolute")
+						.style("z-index", "12")
+						.style("visibility", "hidden")
+						.text("Testing Mouseover");
+                   
                 }
-                
-                InitChart();
+				
+                InitChart(file);
             </script>
         </div>
 
