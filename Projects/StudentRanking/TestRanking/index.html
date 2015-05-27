@@ -113,13 +113,19 @@
 					{
 						vis.append('svg:path')
 						    .attr('d', lineGen(grades[t]))
-						    .attr('stroke', function(d, j) {return "hsl(" + Math.random() * 360 + ",100%,50%)";})
+						    //.attr('stroke', function(d, j) {return "hsl(" + Math.random() * 360 + ",100%,50%)";})
+                            .attr('stroke', function(d, j) {return "hsl(" + greyScale(names.length) * t;})
 						    .attr('stroke-width', 8)
 						    .attr('fill', 'none')
 							.on("mouseover", function(){return tooltip.style("visibility", "visible");})
 							.on("mousemove", function(){return tooltip.style("top", (event.pageY-10)+"px").style("left",(event.pageX+10)+"px");})
 							.on("mouseout", function(){return tooltip.style("visibility", "hidden");})
 					}
+
+                    var greyScale = function(length){
+                        return (204 / length);
+                    }
+
 					var tooltip = d3.select("body")
 						.append("div")
 						.style("position", "absolute")
