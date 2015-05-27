@@ -113,9 +113,8 @@
 					{
 						vis.append('svg:path')
 						    .attr('d', lineGen(grades[t]))
-						    //.attr('stroke', function(d, j) {return "hsl(" + Math.random() * 360 + ",100%,50%)";})
-                            nameLength = names.length;
-                            .attr('stroke', function(d, j) {return greyScale(nameLength) * t;})
+						    .attr('stroke', function(d, j) {return "hsl(" + Math.random() * 360 + ",100%,50%)";})
+                            //.attr('stroke', function(d, j) {return "hsl(" + greyScale(names.length) * t;})
 						    .attr('stroke-width', 8)
 						    .attr('fill', 'none')
 							.on("mouseover", function(){return tooltip.style("visibility", "visible");})
