@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	<title>Grades</title>
 	<script>
 	function loadXMLDoc(filename)
     {
@@ -21,6 +22,11 @@
 	<link href="http://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="http://getbootstrap.com/examples/justified-nav/justified-nav.css" rel="stylesheet">
     <style>
+		h1
+		{  
+			text-align: center;
+			text-indent: 2.0em;  
+		}
         .axis path 
         {
             fill: none;
@@ -32,16 +38,52 @@
             font-family: Lato;
             font-size: 13px;
         }
+		div.container
+		{
+			position: absolute;
+			top:100px;
+			text-indent: 15.0em;
+		}
+		div p
+		{
+			position: relative;
+			text-indent: 5.0em;
+			top: 200px;
+		}
+		p#xaxis
+		{
+			position: absolute;
+			left: 570px;
+			top: 660px;
+		}
+		p#yaxis
+		{
+			position: absolute;
+			left: 260px;
+			top: 430px;
+			transform: rotate(270deg);
+		transform-origin: left top 0;
+		}
+		input#button
+		{
+			position: absolute;
+			left: 150px;
+			top: 660px;
+		}
+		
     </style>
 </head>
 <body>
-    <p> <a href="../../" rel="follow">Projects</a></p><!-- Back link -->
-    
+	<h1>First Five Grades</h1>
+	<p id="xaxis">Test Number (1-5)</p>
+	<p id="yaxis">Grade (%)</p>
+	<div id ="div1">
     <div class="container">
         <div class="jumbotron">
             <svg id="visualisation" width="1000" height="500"></svg>
-			<input type="file" name="file" value="" onchange="get_filename(this);" />
+			<input id="button" type="file" name="file" value="" onchange="get_filename(this);" />
             <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+			
             <script>
 				
 				var file = "test_grades.xml";
@@ -111,21 +153,28 @@
                         .interpolate("linear");
                     for(t=0;t<names.length;t++)
 					{
+						color = (100/names.length) * t;	//different shades of grey
 						vis.append('svg:path')
 						    .attr('d', lineGen(grades[t]))
-						    .attr('stroke', function(d, j) {return "hsl(" + Math.random() * 360 + ",100%,50%)";})
-                            //.attr('stroke', function(d, j) {return "hsl(" + greyScale(names.length) * t;})
-						    .attr('stroke-width', 8)
+						    .attr('stroke', function(d, j) {return "hsl(" + 0 + ",0%,"+color+"%)";})
+						    .attr('stroke-width', 6)
 						    .attr('fill', 'none')
+							
 							.on("mouseover", function(){return tooltip.style("visibility", "visible");})
 							.on("mousemove", function(){return tooltip.style("top", (event.pageY-10)+"px").style("left",(event.pageX+10)+"px");})
 							.on("mouseout", function(){return tooltip.style("visibility", "hidden");})
+							
+							var para = document.createElement("p");
+							var node = document.createTextNode(names[t] + " - " + yogs[t]);
+							var span = document.createElement("span");
+							para.style.color = "hsl(" + 0 + ",0%,"+color+"%)";
+							para.appendChild(node);
+							var element = document.getElementById("div1");
+							element.appendChild(para);
+							element.appendChild(span);
+							//document.getElementById("div1").style.border = "thick solid #0000FF";
+
 					}
-
-                    var greyScale = function(length){
-                        return (204 / length);
-                    }
-
 					var tooltip = d3.select("body")
 						.append("div")
 						.style("position", "absolute")
