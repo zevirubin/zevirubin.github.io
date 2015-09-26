@@ -1,104 +1,593 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Zevi Rubin</title>
 
-<style type="text/css">
-<!--
-body {
-	font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
-	background: #000000;
-	margin: 0;
-	padding: 0;
-	color: #000;
-}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Zevi Rubin</title>
+        <link rel="shortcut icon" type="image/x-icon" src="favicon-16x16.png">
 
-/* ~~ Element/tag selectors ~~ */
-ul, ol, dl { /* Due to variations between browsers, it's best practices to zero padding and margin on lists. For consistency, you can either specify the amounts you want here, or on the list items (LI, DT, DD) they contain. Remember that what you do here will cascade to the .nav list unless you write a more specific selector. */
-	padding: 0;
-	margin: 0;
-}
-h1, h2, h3, h4, h5, h6, p {
-	margin-top: 0;	 /* removing the top margin gets around an issue where margins can escape from their containing div. The remaining bottom margin will hold it away from any elements that follow. */
-	padding-right: 15px;
-	padding-left: 15px; /* adding the padding to the sides of the elements within the divs, instead of the divs themselves, gets rid of any box model math. A nested div with side padding can also be used as an alternate method. */
-}
-a img { /* this selector removes the default blue border displayed in some browsers around an image when it is surrounded by a link */
-	border: none;
-}
-/* ~~ Styling for your site's links must remain in this order - including the group of selectors that create the hover effect. ~~ */
-a:link {
-	color: #42413C;
-	text-decoration: underline; /* unless you style your links to look extremely unique, it's best to provide underlines for quick visual identification */
-}
-a:visited {
-	color: #6E6C64;
-	text-decoration: underline;
-}
-a:hover, a:active, a:focus { /* this group of selectors will give a keyboard navigator the same hover experience as the person using a mouse. */
-	text-decoration: none;
-}
+        <!-- Bootstrap -->
+        <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <!-- custom css -->
+        <link href="css/style.css" rel="stylesheet" type="text/css" media="screen">
+        <!-- font awesome for icons -->
+        <link href="font-awesome-4.2.0/css/font-awesome.min.css" rel="stylesheet">
+         <!--ytp player-->
+          <link href="css/YTPlayer.css" rel="stylesheet" type="text/css">
+        <!--flex slider-->
+        <link href="css/flexslider.css" rel="stylesheet" type="text/css" media="screen">
+        <!-- animated css  -->
+        <link href="css/animate.css" rel="stylesheet" type="text/css" media="screen">
+        <!--web fonts-->      
+        <link href='http://fonts.googleapis.com/css?family=Lato:300,400,400italic' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+        <!--owl carousel css-->
+        <link href="css/owl.carousel.css" rel="stylesheet" type="text/css" media="screen">
+        <link href="css/owl.theme.css" rel="stylesheet" type="text/css" media="screen">
+        <!--popups css-->
+        <link href="css/magnific-popup.css" rel="stylesheet" type="text/css">
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
 
-/* ~~ Change the width of the landing page here ~~ */
-.container {
-	width: auto;
-	max-width: 100%;
-	background: #F2F0F0;
-	margin: 0 auto; /* the auto value on the sides, coupled with the width, centers the layout */
-}
 
-/* ~~ This is the layout information. ~~ 
+    </head>
+    <body data-spy="scroll" data-offset="80">
 
-1) Padding is only placed on the top and/or bottom of the div. The elements within this div have padding on their sides. This saves you from any "box model math". Keep in mind, if you add any side padding or border to the div itself, it will be added to the width you define to create the *total* width. You may also choose to remove the padding on the element in the div and place a second div within it with no width and the padding necessary for your design.
+        <section id="home" data-stellar-background-ratio="0.5">
+            <div class="parallax-overlay"></div> 
+            <a id="video" class="player" data-property="{videoURL:'https://youtu.be/suvLd6V6SKs',containment:'#home', showControls:true, autoPlay:true, loop:true, mute:true, startAt:10, opacity:1, quality:'default'}"></a>
 
-*/
-.content {
+            <div class="home-content text-center">
+                <div class="container">
+                    <span class="home-top-slide-text hidden-xs">Innovative. Creative. Dynamic</span>
+                    <div class="main-flex-slider">
+                        <ul class="slides">
+                            <li>
+                                <h1>Zevi<span class="colored-text"> Rubin</span> </h1>
 
-	padding: 10px 0;
-}
+                            </li>
+                            <li>
+                                <h1><span class="colored-text">Zevi</span> Rubin</h1>
 
-/* ~~ miscellaneous float/clear classes ~~ */
-.fltrt {  /* this class can be used to float an element right in your page. The floated element must precede the element it should be next to on the page. */
-	float: right;
-	margin-left: 8px;
-}
-.fltlft { /* this class can be used to float an element left in your page. The floated element must precede the element it should be next to on the page. */
-	float: left;
-	margin-right: 8px;
-}
-.clearfloat { /* this class can be placed on a <br /> or empty div as the final element following the last floated div (within the #container) if the overflow:hidden on the .container is removed */
-	clear:both;
-	height:0;
-	font-size: 1px;
-	line-height: 0px;
-}
-img {				/*This makes the image scale with the window size*/
-    height: auto;
-    max-width: 100%;
-}
--->
-</style></head>
+                            </li>
+                        </ul>
+                    </div> 
+                    <div class="home-link-btn text-center">
+                        <p class="scrollto"><a href="#about" class="btn btn-lg btn-dark-2">About Me </a></p>
+                    </div>
+                </div>
+            </div>
+        </section><!--home section end-->
+        <section id="navigation">
+            <div class="navbar navbar-default navbar-static-top " role="navigation">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="index.html">Zevi Rubin</a>
+                    </div>
+                    <div class="navbar-collapse collapse">
 
-<body>
+                        <ul class="nav navbar-nav navbar-right scrollto">
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#services">Experiance</a></li>
+                            <li><a href="#work">Resume</a></li>
+                            <li><a href="https://www.youtube.com/user/zevirc/videos?sort=dd&flow=grid&view=0">YouTube</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
 
-<div class="container">
-  <div class="content">
-    <h1 align="middle"><img src="logo.jpg" width="964" height="379" alt="Logo" /></h1>
-    <h1>Stuff</h1>
-    <p> Projects and Hobby business. <a href="https://www.youtube.com/user/zevirc/videos" target="_blank" rel="nofollow">Recent Youtube videos</a>. </p>
-    <!-- To edit the style, widths, colors, you will need to modify the CSS which is located in the &lt;head&gt; of this page. Just right-click the landingPage.html file and &quot;Open With&quot; Notepad or any web editor. For example, to change the background color, edit the #42413C to whatever <a href="http://www.2createawebsite.com/build/hex-colors.html" target="_blank" rel="nofollow">hexadecimal code</a> you want. To change the width of the page, change the value of the &quot;container ID.&quot; -->
-    <h2>Projects</h2>
-    <p><a href="/Projects" rel="nofollow">Summer Research with Michael Gousie</a>. </p>
+                    </div><!--/.nav-collapse -->
+                </div><!--/.container -->
+            </div><!--navbar-default-->
+        </section><!--navigation section end here-->
+        <section id="about" class="section-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="center-heading text-center">
+                            <h2>About Me</h2>
+                            <span class="icon"><i class="fa fa-user"></i></span> 
+                        </div><!--center heading-->
+                    </div>
+                </div><!--center heading-->
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2 text-center wow animated fadeInUp" data-wow-duration="700ms" data-wow-delay="300ms">
+                        <p class="lead margin-btm-30">
+                            I am a Computer Science Major interested in the development of aerial solutions. I have been building multirotors on my own and in makerspaces for the last four years and am excited to see how Multirotors can make the world a better place.  
+                        </p>
+                    </div>
+                </div>
+                <div class="row services">
+                    <div class="col-md-4 margin-btm-30">
+                        <div class="service-box wow animated fadeInUp"  data-wow-duration="700ms" data-wow-delay="300ms">
+                            <i class="fa fa-lightbulb-o"></i>
+                            <h3>Passion</h3>
+                            <p>I started building drones as a hobby. The satisfaction from making something capable of flight from nothing is unbelievable. As my involvement in the hobby has grown I have seen the great potential it has for the world.</p>
+                        </div>
+                    </div><!--service col end-->
+                    <div class="col-md-4 margin-btm-30">
+                        <div class="service-box wow animated fadeInUp"  data-wow-duration="700ms" data-wow-delay="400ms">
+                            <i class="fa fa-code"></i>
+                            <h3>Education</h3>
+                            <p>I started my Computer Science BA in 2011 and will be graduating in Spring 2016. At Wheaton College I have been exposed to the well rounded education a liberal arts school provides as well as having full access to an awesome maker spaces.</p>
+                        </div>
+                    </div><!--service col end-->
+                    <div class="col-md-4 margin-btm-30">
+                        <div class="service-box wow animated fadeInUp"  data-wow-duration="700ms" data-wow-delay="500ms">
+                            <i class="fa fa-tablet"></i>
+                            <h3>Videos</h3>
+                            <p>One of the early projects I started was a YouTube channel to document my projects and progress as a pilot. My work with multirotors lead me into learning about aerial filming and mapping, which has lead me to develop a braod piloting skillset.</p>
+                        </div>
+                    </div><!--service col end-->
 
-    <h2>Hobbies</h2>
-    <p><a href="/Multirotors" rel="nofollow">Multirotors</a>. </p>
-    <!-- 
-    <p align="center"><a href="http://www.yoursite.com"><img src="buyNowRed.gif" alt="Buy Now" width="265" height="93" border="0" /></a></p>
-	-->
-    
-   
-    <!-- end .content --></div>
-  <!-- end .container --></div>
-</body>
+                </div>
+            </div>
+        <!--
+            <div class="divided-50"></div>
+            <div class="cta">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-8 margin-btm-30">
+                            <h3>
+
+                                <strong>Quick</strong> is a simple and quick way for your creative one page projects
+
+                            </h3>
+                        </div>
+                        <div class="col-sm-4">
+                            <a href="#" class="btn btn-theme btn-lg">Purchase now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        -->
+            <div class="divided-50"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="center-heading text-center">
+                            <h2>My Skills</h2>
+                            <span class="icon"><i class="fa fa-user"></i></span> 
+                        </div><!--center heading-->
+                    </div>
+                </div><!--center heading-->
+                <div class="row">
+                    <div class="col-sm-3 text-center">
+                        <div class="progress-circle">
+
+                            <div class="chart" data-percent="80" data-scale-color="#25CBF5">
+                                <span>80%</span>
+                                <canvas height="120" width="120"></canvas>
+                            </div>
+                            <p class="progress-text">HTML5/C++/Python</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 text-center">
+                        <div class="progress-circle">
+
+                            <div class="chart" data-percent="90" data-scale-color="#25CBF5">
+                                <span>90%</span>
+                                <canvas height="120" width="120"></canvas>
+                            </div>
+                            <p class="progress-text">Video Editing</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 text-center">
+                        <div class="progress-circle">
+
+                            <div class="chart" data-percent="89" data-scale-color="#25CBF5">
+                                <span>89%</span>
+                                <canvas height="120" width="120"></canvas>
+                            </div>
+                            <p class="progress-text">FPV Racing</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 text-center">
+                        <div class="progress-circle">
+
+                            <div class="chart" data-percent="87" data-scale-color="#25CBF5">
+                                <span>87%</span>
+                                <canvas height="120" width="120"></canvas>
+                            </div>
+                            <p class="progress-text">Aerial Photography</p>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+        </section><!--about section end-->
+
+        <section id="services" class="section-padding parallax bg-heading" data-stellar-background-ratio="0.5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="center-heading text-center">
+                            <h2>Experience</h2>
+                            <span class="icon"><i class="fa fa-bars"></i></span> 
+                        </div><!--center heading-->
+                    </div>
+                </div><!--center heading-->
+                <div class="row">
+                    <div class="col-md-6 margin-btm-30 wow animated fadeInLeft"  data-wow-duration="700ms" data-wow-delay="100ms">
+                        <div class="row">
+                            <div class="col-md-2">
+                                <div class="service-icon">
+                                    <i class="fa fa-image"></i>                                                                      
+                                </div>
+                            </div><!--service-icon col-->
+                            <div class="col-md-10">
+                                <div class="service-info">
+                                    <h4>Data Visualization Research</h4>
+                                    <p>
+                                        I worked with the head of the Computer Science department over the summer on visualizing ranked, time-series data using graphic displays and a clustering display. The majority of the work was replicating a Flash Action Script version using Javascript and HTML5.
+                                    </p>
+                                </div>
+                            </div><!--service-info-col-->
+                        </div>
+                    </div><!--service-col-->
+                    <div class="col-md-6 margin-btm-30 wow animated fadeInRight"  data-wow-duration="700ms" data-wow-delay="200ms">
+                        <div class="row">
+                            <div class="col-md-2">
+                                <div class="service-icon">
+                                    <i class="fa fa-crop"></i>                                                                      
+                                </div>
+                            </div><!--service-icon col-->
+                            <div class="col-md-10">
+                                <div class="service-info">
+                                    <h4>Tech Support Student Manager</h4>
+                                    <p>
+                                        I currently hold the senior most student position in the college tech support department. I have vast experience with basic computer functionality and trouble shooting as well as proficiency with Filemaker Pro, Deep Freeze, and bulk computer imaging.
+                                    </p>
+                                </div>
+                            </div><!--service-info-col-->
+                        </div>
+                    </div><!--service-col-->
+                </div><!--services-row-->
+                <div class="divided-50"></div>
+                <div class="row">
+                    <div class="col-md-6 margin-btm-30 wow animated fadeInUp"  data-wow-duration="700ms" data-wow-delay="300ms">
+                        <div class="row">
+                            <div class="col-md-2">
+                                <div class="service-icon">
+                                    <i class="fa fa-users"></i>                                                                      
+                                </div>
+                            </div><!--service-icon col-->
+                            <div class="col-md-10">
+                                <div class="service-info">
+                                    <h4>Emergency Training Aerial Recon</h4>
+                                    <p>
+                                        I have had the opportunity to accompany the Bristol County technical rescue team to a number of training exercises and scenarios. Access to fast and accurate  aerial inspection and recon was incredibly valuable to the response team.
+                                    </p>
+                                </div>
+                            </div><!--service-info-col-->
+                        </div>
+                    </div><!--service-col-->
+                    <div class="col-md-6 margin-btm-30 wow animated fadeInUp"  data-wow-duration="700ms" data-wow-delay="400ms">
+                        <div class="row">
+                            <div class="col-md-2">
+                                <div class="service-icon">
+                                    <i class="fa fa-desktop"></i>                                                                      
+                                </div>
+                            </div><!--service-icon col-->
+                            <div class="col-md-10">
+                                <div class="service-info">
+                                    <h4>Aerial Video</h4>
+                                    <p>
+                                        I have worked indevidually as well as with the Wheaton College communications department and Film and New Media studies department to help promote a positive view of drones and their capability through aerial footage and images, pannel talks, and flight training sessions.
+                                    </p>
+                                </div>
+                            </div><!--service-info-col-->
+                        </div>
+                    </div><!--service-col-->
+                </div><!--services-row-->
+            </div>
+        </section><!--services-->
+        <section id="work" class="section-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="center-heading text-center">
+                            <h2 class=" wow animated bounceIn"  data-wow-duration="700ms" data-wow-delay="100ms">My Work</h2>
+                            <span class="icon"><i class="fa fa-image"></i></span> 
+                        </div><!--center heading-->
+                    </div>
+                </div><!--center heading-->
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2 text-center">
+                        <p class="lead margin-btm-30">
+                            <h2>View or Download my <a href="/ZeviRubinResume.pdf"><span class="colored-text">Resume</span> </a>. </h2>
+
+                            Here are some of my various projects I have worked on through school and on my own. 
+
+                        </p>
+                    </div>
+                </div>
+                <div class="divided-50"></div>
+                <div class="row">
+                    <div id="work-slide" class="owl-carousel">
+                        <div>
+                            <div class="col-md-6 margin-btm-30">
+                                <img src="img/work-1.png" class="img-responsive" alt="">
+                            </div>
+                            <div class="col-md-6">
+                                <div class="work-detail">
+                                    <h1>Building my Fleet</h1>
+                                    <p>
+                                        I have assembled quite a collection of multirotors, ranging from my first tricopter made out of wood and hot glue to some of my latest custom carbon fiber racers and heavy lift aerial photography rigs,
+                                    </p>
+                                    <p>
+                                        The components have changed a lot since I started, but my skillset and continually growing knowledge of the hobby keep me wanting to learn more,
+                                    </p>
+                                    <p>
+                                        To view build albums and test videos visit the project!
+                                    </p>
+                                    <p><strong>Project::</strong> Drone Building</p>
+                                    <p><strong>Skills:</strong> Programing / Piloting / Electronics</p>
+                                    <p><a href="#" class="btn btn-dark">Visit Project</a></p>
+                                </div>
+                            </div>
+                        </div><!--testimonials item like paragraph-->
+                        <div>
+
+                            <div class="col-md-6 margin-btm-30">
+                                <div class="work-detail">
+                                    <h1>Ranking Timeline Research</h1>
+                                    <p>
+                                        I got to work with the head of the Computer Science department, Michael Gousie, on visualizing ranked, time-series data using HTML5. Learning the process behind developing a web application from the ground up with a completely new user interface was an very valuable learning experiance,
+                                    </p>
+                                    <p>
+                                        Learning Javascript display and using D3js was the most dificult part of the work. Once we got the data organized correctly through two xml files the displaying and color cordination came together,
+                                    </p>
+                                    <p>
+                                        A comprehensize overview of the project and version information can be found on the project page,
+                                    </p>
+                                    <p><strong>Project::</strong> Summer CS Research</p>
+                                    <p><strong>Skills:</strong> HTMl5 / Javascript / d3js</p>
+                                    <p><a href="http://cs.wheatonma.edu/RankingTimeline/landingPage/" class="btn btn-dark">Visit Project Page</a></p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <img src="img/work-2.png" class="img-responsive" alt="">
+                            </div>
+                        </div><!--testimonials item like paragraph-->
+                        <div>
+                            <div class="col-md-6 margin-btm-30">
+                                <img src="img/work-3.png" class="img-responsive" alt="">
+                            </div>
+                            <div class="col-md-6">
+                                <div class="work-detail">
+                                    <h1>Aerial Video</h1>
+                                    <p>
+                                        Since starting flying, one of the first things I did with my first Tricopter was put an old gopro on it. The unique viewpoint an aerial craft can give has always excited me and multirotors make it abundantly available,
+                                    </p>
+                                    <p>
+                                        My aerial experiance has mostly been limited to 2.7K, and more recently 4K GoPro video. However, I recently built myself my first big Aerial Photography rig that carries a Nex 5n camera on a custom 3-axis gimbal. The quality difference between action cameras and a mirrorless dslr is incredible. Both have their advantages and strengths.  
+                                    </p>
+                                    <p>
+                                        My Aerial Videos and projects can be found on my YouTube account.
+                                    </p>
+                                    <p><strong>Project:</strong> Aerial Cinematography</p>
+                                    <p><strong>Skills:</strong> Piloting / Building / Editing</p>
+                                    <p><a href="https://www.youtube.com/user/zevirc/search?query=aerial" class="btn btn-dark">Visit Project</a></p>
+                                </div>
+                            </div>
+                        </div><!--testimonials item like paragraph-->                     
+                    </div>
+                </div><!--portfolio carousel slide use for single item detail-->
+            </div>
+            <div class="divided-50"></div>
+            <div class="container  wow animated fadeInUp"  data-wow-duration="700ms" data-wow-delay="200ms">
+                <div class="row">
+                    <div class="col-md-12">
+                        <ul class="portfolio-filters text-center">
+                            <li class="filter active" data-filter="all">all</li>
+                            <li class="filter" data-filter="design">design</li>
+                            <li class="filter" data-filter="html">HTML5</li>
+                        </ul><!--.portfolio-filter nav-->
+
+                        <div id="grid" class="row" style="       ">
+                            <div class="mix col-sm-4 design margin-btm-30">
+                                <div class="item-img-wrap ">
+                                    <img src="img/work-1.png" class="img-responsive" alt="workimg">
+                                    <div class="item-img-overlay">
+                                        <a href="img/work-1.png" class="show-image">
+                                            <span></span>
+                                        </a>
+                                    </div>
+                                </div> <!--item img wrap-->
+                                <div class="work-desc">
+                                    <h4><a href="work-single.html">Building Multirotors</a></h4>
+                                    <em>Design / Programing</em>
+                                </div><!--work desc-->
+
+                            </div><!--work item-->
+                            <div class="mix  col-sm-4 html margin-btm-30">
+                                <div class="item-img-wrap ">
+                                    <img src="img/work-2.png" class="img-responsive" alt="workimg">
+                                    <div class="item-img-overlay">
+                                        <a href="img/work-2.png" class="show-image">
+                                            <span></span>
+                                        </a>
+                                    </div>
+                                </div> <!--item img wrap-->
+                                <div class="work-desc">
+                                    <h4><a href="work-single.html">Web Research</a></h4>
+                                    <em>Javascript / HTML5</em>
+                                </div><!--work desc-->
+
+                            </div><!--work item-->
+                            <div class="mix col-sm-4 wordpress design margin-btm-30">
+                                <div class="item-img-wrap ">
+                                    <img src="img/work-3.png" class="img-responsive" alt="workimg">
+                                    <div class="item-img-overlay">
+                                        <a href="img/work-3.png" class="show-image">
+                                            <span></span>
+                                        </a>
+                                    </div>
+                                </div> <!--item img wrap-->
+                                <div class="work-desc">
+                                    <h4><a href="work-single.html">Aerial Photography</a></h4>
+                                    <em>Piloting / Editing</em>
+                                </div><!--work desc-->
+
+                            
+                                </div><!--work desc-->
+                            </div><!--work item-->
+                        </div><!--#grid for filter items-->
+                    </div><!--.col-md-12 of portfolio filter-->
+                </div><!--.row-->
+            </div>
+        </section><!--work-->
+        <section id="blog" class="section-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="center-heading text-center">
+                            <h2 class=" wow animated bounceIn"  data-wow-duration="700ms" data-wow-delay="100ms">Recent News</h2>
+                            <span class="icon"><i class="fa fa-calendar"></i></span> 
+                        </div><!--center heading-->
+                    </div>
+                </div><!--center heading-->
+
+                <div class="divided-50"></div>
+                <div class="row">
+                    <div class="col-sm-4 margin-btm-30 wow animated fadeInUp"  data-wow-duration="700ms" data-wow-delay="400ms">
+                        <div class="item-img-wrap ">
+                            <img src="img/work-4.png" class="img-responsive" alt="workimg">
+                            <div class="item-img-overlay">
+                                <a href="img/work-3.png" class="show-image">
+                                    <span></span>
+                                </a>
+                            </div>
+                        </div><!--item image hover-->
+                        <div class="blog-desc">
+                            <h3><a href="#">Aerial Video Post</a></h3>
+                            <span>18 September 2015</span>
+                            <p>
+                                Recent YouTube activity: working on making a animated intro on Cinema 4D.
+                            </p>
+        
+                        </div><!--blog desc-->
+                    </div><!--blog post col end-->
+                    <div class="col-sm-4 margin-btm-30 wow animated fadeInUp"  data-wow-duration="700ms" data-wow-delay="500ms">
+                        <div class="item-img-wrap ">
+                            <img src="img/work-6.png" class="img-responsive" alt="workimg">
+                            <div class="item-img-overlay">
+                                <a href="img/work-2.png" class="show-image">
+                                    <span></span>
+                                </a>
+                            </div>
+                        </div><!--item image hover-->
+                        <div class="blog-desc">
+                            <h3><a href="#">Summer Research Ended</a></h3>
+                            <span>1 September 2015</span>
+                            <p>
+                                My summer research came to and end and the school year is about to start!
+                            </p>
+                            
+                        </div><!--blog desc-->
+                    </div><!--blog post col end-->
+                    <div class="col-sm-4 margin-btm-30 wow animated fadeInUp"  data-wow-duration="700ms" data-wow-delay="600ms">
+                        <div class="item-img-wrap ">
+                            <img src="img/work-5.png" class="img-responsive" alt="workimg">
+                            <div class="item-img-overlay">
+                                <a href="img/work-1.png" class="show-image">
+                                    <span></span>
+                                </a>
+                            </div>
+                        </div><!--item image hover-->
+                        <div class="blog-desc">
+                            <h3><a href="#">Latest Build Update</a></h3>
+                            <span>19 September 2015</span>
+                            <p>
+                                I just heard about Davids new mini simple tricopter. I have ordered one of his integrated naze32 board PDB plates and am working on a parts list for the little tri. 
+                            </p>
+                            
+                        </div><!--blog desc-->
+                    </div><!--blog post col end-->
+                </div><!--blog post row-->
+            </div>
+        </section><!--blog section end-->
+        
+        <section id="contact" class="section-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="center-heading text-center">
+                            <h2 class=" wow animated fadeInRight"  data-wow-duration="700ms" data-wow-delay="100ms">Contact Me</h2>
+                            <span class="icon"><i class="fa fa-phone"></i></span> 
+                        </div><!--center heading-->
+                    </div>
+                </div><!--center heading-->
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <p class="lead">
+                            Want to learn more about me or ask any questions? Shoot me an email at zevirc@gmail.com
+                        </p>
+                    </div>
+                </div>
+                <div class="divided-50"></div>
+                
+            </div>
+
+        </section><!--contact-->
+
+
+        
+
+        <div class="footer-btm">
+            
+            <div class="copyright text-center">
+                Copyright &copy; 2015. Powered by <a href="#">bootstrap</a> 
+            </div>
+        </div><!--footer-btm-->
+        <!--back to top-->
+        <a href="#" class="scrollToTop"><i class="fa fa-angle-up"></i></a>
+        <!--back to top end-->
+        <!--scripts and plugins -->
+        <!--must need plugin jquery-->
+        <script src="js/jquery.min.js"></script>        
+        <!--bootstrap js plugin-->
+        <script src="bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+        <!--easing plugin for smooth scroll-->
+        <script src="js/jquery.easing.1.3.min.js" type="text/javascript"></script>
+        <script src="js/jquery.sticky.js" type="text/javascript"></script>
+         <script src="js/jquery.mb.YTPlayer.min.js" type="text/javascript"></script>
+        <!--digit countdown plugin-->
+        <script src="js/jquery.counterup.min.js" type="text/javascript"></script>
+        <!--on scroll animation-->
+        <script src="js/wow.min.js" type="text/javascript"></script> 
+        <!--easy pie charts-->
+        <script src="js/waypoints.min.js" type="text/javascript"></script>
+        <script src="js/easypiechart.js" type="text/javascript"></script>
+        <script src="js/jquery.flexslider-min.js" type="text/javascript"></script>
+        <script src="js/jquery.mixitup.min.js" type="text/javascript"></script>
+        <script src="js/jquery.stellar.min.js" type="text/javascript"></script>
+        <!--owl carousel slider-->
+        <script src="js/owl.carousel.min.js" type="text/javascript"></script>
+        <!--twitter feed-->
+        <script src="js/tweetie.min.js" type="text/javascript"></script>
+        <!--popup js-->
+        <script src="js/jquery.magnific-popup.min.js" type="text/javascript"></script>
+        <script src="js/jquery.backstretch.min.js" type="text/javascript"></script>
+
+        <!--valid / working contact form js-->
+        <script src="js/contact_me.js" type="text/javascript"></script>
+        <script src="js/jqBootstrapValidation.js" type="text/javascript"></script>
+        <!--customizable plugin edit according to your needs-->
+        <script src="js/custom.js" type="text/javascript"></script>
+    </body>
 </html>
